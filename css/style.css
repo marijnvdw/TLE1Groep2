@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+nav {
+    text-align: left;
+}
+
+#article {
+    border: solid, 2px;
+    width: 70vw;
+    height: auto;
+    text-align: left;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+#articleImage {
+    height: auto;
+    width: 25vw;
+    align-self: flex-end;
+}
