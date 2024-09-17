@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Bar</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/main.js"></script>
+</head>
+
+<body>
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+    </div>
+    <section class="main">
+        <div class="textbox" id="generated">
+            <textarea></textarea>
+        </div>
+        <div class="container">
+            <div class="progress-bar">
+                <svg viewBox="0 0 100 100" width="150" height="150">
+                    <circle cx="50" cy="50" r="45" stroke="#e0e0e0" stroke-width="10" fill="none"></circle>
+                    <circle id="fill" cx="50" cy="50" r="45" stroke="#4caf50" stroke-width="10" fill="none"
+                        stroke-dasharray="283" stroke-dashoffset="283"></circle>
+                </svg>
+            </div>
+            <button onclick="startProgress(70)">Start Progress</button>
+            <div id="result"></div>
+        </div>
+    </section>
+
+    <!-- Site footer -->
+    <footer>
+        <div class="footer-content">
+            <p>© 2024 Your Website | All Rights Reserved</p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
