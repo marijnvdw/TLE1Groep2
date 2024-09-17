@@ -5,13 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>Website</title>
 </head>
 
 <body>
     <header>
+        <i class="fa-solid fa-bars nav-button" id="toggleMenu"></i>
         <h1>Is this article made by AI or by a Human?</h1>
     </header>
+    <div id="sideMenu">
+        <i id="closeMenu">&times; </i>
+        <p>Menu Content</p>
+    </div>
+
+    <script>
+        // Toggle het menu aan/uit wanneer op het hamburgermenu wordt geklikt
+        document.getElementById('toggleMenu').addEventListener('click', function() {
+            var sideMenu = document.getElementById('sideMenu');
+            sideMenu.classList.add('show');
+        });
+
+        // Sluit het menu wanneer op de close-button wordt geklikt
+        document.getElementById('closeMenu').addEventListener('click', function() {
+            var sideMenu = document.getElementById('sideMenu');
+            sideMenu.classList.remove('show');
+        });
+    </script>
+
+
     <main>
         <!-- <div id="testExplanation">
             <p>In this test you will be choosing if an article has been written by artificial intelligence or a human.
