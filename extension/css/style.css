@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+
+    width: 94vw;
+    height: 96vh;
+    background-color: rgb(151, 209, 222);
+    overflow-x: hidden;
+}
+
+.extensionContainer {
+    width: 100%;
+}
+
+.secondWordInH1 {
+    color: white;
+}
+
+.h1Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    margin-top: 5vh;
+    border-radius: 7px;
+    padding: 6px;
+    cursor: pointer;
+    margin-top: 20vh;
+}
+
+button:hover {
+    background-color: gray;
+    color: white;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 6px;
+}
+
+.textBoxContainer {
+    margin: auto;
+    margin-top: 20px;
+    width: 80vw;
+    height: 20vh;
+    background-color: white;
+    border-color: black 2px;
+    border-radius: 20px;
+}
+
+#textContainer {
+    padding-top: 20px;
+    padding-left: 15px;
+}

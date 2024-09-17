@@ -1,41 +1,41 @@
  <?php
-/**
- * @return array
- */
-function getArticle()
-{
-    return [
-        [
-            "id" => 1,
-            "name" => "Tito Jackson (70), lid van Jackson 5, overleden",
-            "image" => "",
-            "link" => "https://nos.nl/artikel/2537306-tito-jackson-70-lid-van-jackson-5-overleden",
-            "status" => true,
-            "text" => `De Amerikaanse muzikant Tito Jackson is op 70-jarige leeftijd overleden. Dat maken zijn zonen bekend op Instagram. Tito Jackson was een van de negen kinderen uit de muzikale Jackson-familie, net als Michael, Janet en Jermaine.
+    /**
+     * @return array
+     */
+    function getArticle()
+    {
+        return [
+            [
+                "id" => 1,
+                "name" => "Tito Jackson (70), lid van Jackson 5, overleden",
+                "image" => "",
+                "link" => "https://nos.nl/artikel/2537306-tito-jackson-70-lid-van-jackson-5-overleden",
+                "status" => true,
+                "text" => `De Amerikaanse muzikant Tito Jackson is op 70-jarige leeftijd overleden. Dat maken zijn zonen bekend op Instagram. Tito Jackson was een van de negen kinderen uit de muzikale Jackson-familie, net als Michael, Janet en Jermaine.
                         Tito, geboren als Toriano Adaryll Jackson, was een van de broers die samen de groep Jackson 5 vormden. Michael en Jermaine waren daar ook lid van. Zij begonnen later een solocarrière en Michael werd een muzikale superster.
                         Voor Tito gold dat niet. Hij bleef meer op de achtergrond en speelde in de Jackson 5 gitaar en zong op de achtergrond. De groep had had hits met nummers als ABC, I Want You Back and I'll Be There. The Jackson 5 is in 1997 opgenomen in de Rock and Roll Hall of Fame.
-                        The Jackson 5, waaronder Tito met gitaar, met hun hit "I want you back" in de Ed Sullivan Show in 1969:
+
                         Tito trad nog tot kort voor zijn overlijden op. Zo stond hij vorige week nog met zijn broers Marlon en Jackie op het podium in de Duitse stad München met de band The Jacksons.
                         Tito's zonen TJ, Taj and Taryll, zelf bekend als muzikaal trio 3T, zeggen geschokt te zijn door het overlijden van hun vader. "We zijn verdrietig, ons hart is gebroken."
                         Het Amerikaanse Entertainment Tonight zegt dat Tito volgens een familievriend aan een hartaanval is overleden, maar zijn zoons melden in het Instagrambericht niets over de doodsoorzaak.`
-        ],
-        [
-            "id" => 2,
-            "name" => "Gorilla Bokito (27) tijdens narcose doodgegaan in Diergaarde Blijdorp",
-            "image" => "",
-            "link" => "https://nos.nl/artikel/2470274-gorilla-bokito-27-tijdens-narcose-doodgegaan-in-diergaarde-blijdorp",
-            "status" => true,
-            "text" => `Gorilla Bokito uit Diergaarde Blijdorp in Rotterdam is op 27-jarige leeftijd doodgegaan. Dat gebeurde gisteren, tijdens een narcose. Het dier was sinds zondag niet in orde.
+            ],
+            [
+                "id" => 2,
+                "name" => "Gorilla Bokito (27) tijdens narcose doodgegaan in Diergaarde Blijdorp",
+                "image" => "",
+                "link" => "https://nos.nl/artikel/2470274-gorilla-bokito-27-tijdens-narcose-doodgegaan-in-diergaarde-blijdorp",
+                "status" => true,
+                "text" => `Gorilla Bokito uit Diergaarde Blijdorp in Rotterdam is op 27-jarige leeftijd doodgegaan. Dat gebeurde gisteren, tijdens een narcose. Het dier was sinds zondag niet in orde.
                         Blijdorp onderzocht maandag de mest van de gorilla om te zien wat er aan de hand was. Ook werd Bokito extra geobserveerd. Gisteren was de situatie nog niet verbeterd. De dierentuin heeft het dier onder narcose nog vocht toegediend, maar het overleed tijdens de narcose. Naar de oorzaak van het onverwachte overlijden wordt onderzoek gedaan.
                         Volgens Blijdorp is de hele gorillagroep aangeslagen door de gebeurtenis. Onder medewerkers van de dierentuin, en vooral onder de verzorgers van de apen, heerst verslagenheid. In het wild worden gorilla's 35 tot 40 jaar oud.`
-        ],
-        [
-            "id" => 3,
-            "name" => "New Planet Discovered",
-            "image" => "",
-            "link" => "",
-            "status" => false,
-            "text" => `Scientists have made an astonishing announcement this week: the discovery of a new planet within our solar system. 
+            ],
+            [
+                "id" => 3,
+                "name" => "New Planet Discovered",
+                "image" => "",
+                "link" => "",
+                "status" => false,
+                "text" => `Scientists have made an astonishing announcement this week: the discovery of a new planet within our solar system. 
                         Named "Nubira," this previously unknown planet orbits just beyond Neptune and was identified using cutting-edge telescope technology. 
                         Nubira is estimated to be about the size of Mars, but what makes it truly remarkable is the presence of a thin atmosphere that contains 
                         traces of oxygen, which is uncommon for planets in this distant region. Even more intriguing, there is strong evidence to suggest that 
@@ -47,14 +47,14 @@ function getArticle()
                         missions, potentially sending robotic probes to explore Nubira’s unique landscape. If water is confirmed, Nubira could become a 
                         prime candidate in the search for extraterrestrial life. Enthusiasts are already dubbing it the “new frontier” of space exploration, 
                         and space agencies around the world are racing to study this enigmatic world.`
-        ],
-        [
-            "id" => 4,
-            "name" => "Banned Technology: Telepathic Communication Devices",
-            "image" => "",
-            "link" => "",
-            "status" => false,
-            "text" => `In a breakthrough that sounds like science fiction, a secret U.S. military project has reportedly developed a device that allows 
+            ],
+            [
+                "id" => 4,
+                "name" => "Banned Technology: Telepathic Communication Devices",
+                "image" => "",
+                "link" => "",
+                "status" => false,
+                "text" => `In a breakthrough that sounds like science fiction, a secret U.S. military project has reportedly developed a device that allows 
                         for telepathic communication. Dubbed "MindLink," this device translates brainwaves into speech, enabling people to communicate thoughts without 
                         uttering a word. The technology works by capturing neural signals and converting them into digital data, which is then transmitted to another 
                         person’s device, allowing for silent, instantaneous conversations. Originally conceived for covert military operations, MindLink could 
@@ -65,14 +65,14 @@ function getArticle()
                         Some sources suggest that consumer versions of MindLink could become available within the next five years, which would open a Pandora's box of legal and moral challenges. 
                         Experts caution that if such technology is mishandled, it could have devastating consequences for personal freedoms. Meanwhile, tech companies are quietly investing in similar innovations, 
                         hoping to capitalize on this potentially world-changing technology.`
-        ],
-        [
-            "id" => 5,
-            "name" => "Spar",
-            "image" => "",
-            "link" => "https://nos.nl/collectie/13885/artikel/2411338-zacht-weer-vuurwerkverbod-en-corona-hoe-gaat-politie-de-jaarwisseling-in",
-            "status" => true,
-            "text" => `De komende jaarwisseling heeft een aantal gelijkenissen met de vorige: ook nu waart het coronavirus rond, is er een lockdown van 
+            ],
+            [
+                "id" => 5,
+                "name" => "Zacht weer, vuurwerkverbod en corona: hoe gaat politie de jaarwisseling in?",
+                "image" => "",
+                "link" => "https://nos.nl/collectie/13885/artikel/2411338-zacht-weer-vuurwerkverbod-en-corona-hoe-gaat-politie-de-jaarwisseling-in",
+                "status" => true,
+                "text" => `De komende jaarwisseling heeft een aantal gelijkenissen met de vorige: ook nu waart het coronavirus rond, is er een lockdown van 
                         kracht en geldt er een vuurwerkverbod. Toch wordt deze Oud en Nieuw extra spannend voor de politie, denkt coronacommandant bij de nationale 
                         politie Willem Woelders. Want 2021 wordt vrijdagavond afgesloten met zeer zacht weer, na een jaar met een reeks geweldsincidenten tegen de 
                         politie.
@@ -90,14 +90,14 @@ function getArticle()
 
                         Ook Jan Struijs, voorzitter van de Nederlandse Politiebond, zegt dat het weer zeker een rol speelt. Volgens Struijs scheelt kouder weer en regen de helft 
                         van de meldingen. "Alle politiemensen die dienst hebben met nieuwjaar, kijken even naar de weersverwachting.`
-        ],
-        [
-            "id" => 6,
-            "name" => "Adele stops Las Vegas show to tell security to leave fan alone",
-            "image" => "",
-            "link" => "https://abc7chicago.com/adele-las-vegas-security-guard-viral-video/13713288/",
-            "status" => true,
-            "text" => `Adele stopped her show Saturday night in Las Vegas to scold a security guard who was "bothering" an audience member.
+            ],
+            [
+                "id" => 6,
+                "name" => "Adele stops Las Vegas show to tell security to leave fan alone",
+                "image" => "",
+                "link" => "https://abc7chicago.com/adele-las-vegas-security-guard-viral-video/13713288/",
+                "status" => true,
+                "text" => `Adele stopped her show Saturday night in Las Vegas to scold a security guard who was "bothering" an audience member.
 
                         According to video of the incident shared on social media, Adele was in the middle of singing "Water Under the Bridge" and stopped the music to ask what was going 
                         on in the audience with one particular concertgoer who had been standing.
@@ -118,14 +118,14 @@ function getArticle()
 
                         Adele isn't the first performer to notice a security guard being a little too harsh. In May,Taylor Swift yelled at security during a performance, shouting about a fan, 
                         "She's fine!" and "She wasn't doing anything!`
-        ],
-        [
-            "id" => 7,
-            "name" => "Wetenschappers Ontdekken Bomen Die Zuurstof Absorberen in Plaats van Produceren",
-            "image" => "",
-            "link" => "",
-            "status" => false,
-            "text" => `In een onverwachte ontdekking hebben botanici aan de Universiteit van Wageningen een boomsoort geïdentificeerd die geen zuurstof 
+            ],
+            [
+                "id" => 7,
+                "name" => "Wetenschappers Ontdekken Bomen Die Zuurstof Absorberen in Plaats van Produceren",
+                "image" => "",
+                "link" => "",
+                "status" => false,
+                "text" => `In een onverwachte ontdekking hebben botanici aan de Universiteit van Wageningen een boomsoort geïdentificeerd die geen zuurstof 
                         produceert, maar het juist absorbeert. Deze bomen, gevonden in een afgelegen deel van de Amazone, gedragen zich tegengesteld aan wat we van 
                         planten gewend zijn. In plaats van fotosynthese, waarbij planten koolstofdioxide opnemen en zuurstof afgeven, nemen deze bomen zuurstof uit 
                         de lucht en stoten ze stikstof uit.
@@ -141,14 +141,14 @@ function getArticle()
                         Hoewel de onderzoekers benadrukken dat de bevindingen nog verder onderzocht moeten worden, roept dit een interessante discussie op in de wetenschappelijke 
                         wereld over de rol van deze nieuwe plantensoort in het mondiale ecosysteem. De vraag blijft: hoe zijn deze bomen geëvolueerd, en wat betekent dit voor de 
                         toekomst van ons milieu?`
-        ],
-        [
-            "id" => 8,
-            "name" => "Donald Trump gets his mug shot taken",
-            "image" => "",
-            "link" => "",
-            "status" => true,
-            "text" => `A camera clicks. In a fraction of a second, the shutter opens and then closes, freezing forever the image in front of it.
+            ],
+            [
+                "id" => 8,
+                "name" => "Donald Trump gets his mug shot taken",
+                "image" => "",
+                "link" => "",
+                "status" => true,
+                "text" => `A camera clicks. In a fraction of a second, the shutter opens and then closes, freezing forever the image in front of it.
 
                         When the camera shutter blinked inside an Atlanta jail on Thursday, it both created and documented a tiny inflection point in American life. Captured 
                         for posterity, there was a former president of the United States, for the first time in history, under arrest and captured in the sort of frame more commonly 
@@ -166,14 +166,14 @@ function getArticle()
                         as if he is staring down a nemesis through the lens.
 
                         “It is not a comfortable feeling — especially when you have done nothing wrong,” he later told Fox News Digital about the moment.`
-        ],
-        [
-            "id" => 9,
-            "name" => "The Beatles to release emotional 'final song', Now and Then, next week",
-            "image" => "",
-            "link" => "https://www.bbc.com/news/entertainment-arts-67207699",
-            "status" => true,
-            "text" => `More than 50 years after The Beatles broke up, the band have announced the release of their "last song".
+            ],
+            [
+                "id" => 9,
+                "name" => "The Beatles to release emotional 'final song', Now and Then, next week",
+                "image" => "",
+                "link" => "https://www.bbc.com/news/entertainment-arts-67207699",
+                "status" => true,
+                "text" => `More than 50 years after The Beatles broke up, the band have announced the release of their "last song".
 
                         Called Now And Then, it is based on a 1970s demo recording by John Lennon, and was completed last year by Sir Paul McCartney and Sir Ringo Starr.
                         Sir Paul teased the song in a BBC interview this summer, saying AI technology had been used to "extricate" Lennon's vocals from an old cassette.
@@ -184,14 +184,14 @@ function getArticle()
                         In a press release, the surviving Beatles said completing the song had been a surreal experience.
                         "There it was, John's voice, crystal clear," said Sir Paul. "It's quite emotional. And we all play on it, it's a genuine Beatles recording. In 2023 to still be working on Beatles music, and about to release a new song the public haven't heard, I think it's an exciting thing."
                         "It was the closest we'll ever come to having him back in the room so it was very emotional for all of us," added Starr. "It was like John was there, you know. It's far out.`
-        ],
-        [
-            "id" => 10,
-            "name" => "Rupert Grint Diagnosed with Bone Cancer: A Brave Fight Ahead",
-            "image" => "",
-            "link" => "",
-            "status" => false,
-            "text" => `In a shocking announcement, it has been revealed that actor Rupert Grint, beloved for his role as Ron Weasley in the 
+            ],
+            [
+                "id" => 10,
+                "name" => "Rupert Grint Diagnosed with Bone Cancer: A Brave Fight Ahead",
+                "image" => "",
+                "link" => "",
+                "status" => false,
+                "text" => `In a shocking announcement, it has been revealed that actor Rupert Grint, beloved for his role as Ron Weasley in the 
                         Harry Potter series, has been diagnosed with bone cancer. The 35-year-old actor, who has maintained a relatively private life in 
                         recent years, shared the heartbreaking news through a statement issued by his publicist earlier this week.
 
@@ -212,11 +212,11 @@ function getArticle()
 
                         Grint’s bravery in the face of this diagnosis has already inspired many, and his fans are hopeful for a full recovery. For now, all eyes are 
                         on his journey as he navigates this difficult chapter with courage and resilience.`
-        ],
-    ];
-}
+            ],
+        ];
+    }
 
-/**
- * @param $id
- * @return mixed
- */
+    /**
+     * @param $id
+     * @return mixed
+     */
