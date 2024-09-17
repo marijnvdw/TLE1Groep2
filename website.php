@@ -20,6 +20,17 @@
     </div>
 
     <script>
+
+          // Use the fetch API to get the JSON data from the PHP file
+          fetch('services/webservice/index.php') // Assumes your PHP file is called data.php
+            .then(response => response.json()) // Parse the response as JSON
+            .then(data => {
+                console.log(data); // Log the data to the console
+            })
+            .catch(error => {
+                console.error('Error fetching data:', error); // Handle errors
+            });
+
         // Toggle het menu aan/uit wanneer op het hamburgermenu wordt geklikt
         document.getElementById('toggleMenu').addEventListener('click', function() {
             var sideMenu = document.getElementById('sideMenu');
