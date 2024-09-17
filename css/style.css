@@ -11,19 +11,53 @@ nav {
     border: solid, 2px;
     width: 70vw;
     height: auto;
-    text-align: left;
     padding: 10px;
-    display: flex;
-    flex-direction: column;
     margin: auto;
     text-align: justify;
+    margin-bottom: 10px;
 }
 
 #articleImage {
-    height: auto;
-    width: 25vw;
+    height: 28vh;
+    width: auto;
 }
 
-#articleImage img {
+.wrappedImageDiv {
     float: right;
+    margin: 5px;
+    margin-left: 15px;
+}
+
+.wrappedTextDiv {
+    text-align: left;
+}
+
+#articleTitle {
+    text-align: center;
+}
+
+.bottomText {
+    width: 70vw;
+    margin: auto;
+    font-size: large;
+}
+
+#questionCounter {
+    display: flex;
+    justify-self: left;
+    font-style: italic;
+}
+
+.bottomButtons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50vw;
+    margin: auto;
+}
+
+.bottomButtons button {
+    width: 75px;
+    height: 30px;
+    font-weight: bold;
+    font-size: large;
 }
