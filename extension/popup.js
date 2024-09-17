@@ -1,7 +1,14 @@
 document.getElementById("clickMe").addEventListener("click", function () {
-    if (textContainer.innerHTML === "") {
-        textContainer.innerHTML = "Deze nieuwsbron wordt als zeer betrouwbaar beschouwd";
-    } else {
-        textContainer.innerHTML = "";
-    }
+    
+    const circles = document.querySelectorAll(".circle");
+    circles.forEach(circle => {
+        circle.classList.toggle("hidden");
+    });
+
+    const textBox = document.querySelectorAll(".textBoxContainer");
+    textBox.forEach(textBoxContainer => {
+        textBoxContainer.classList.toggle("hiddenBox");
+    });
+    
+   
 });
