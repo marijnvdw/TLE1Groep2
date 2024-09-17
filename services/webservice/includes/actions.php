@@ -10,7 +10,7 @@ function getArticle()
             "name" => "Tito Jackson (70), lid van Jackson 5, overleden",
             "image" => "",
             "link" => "https://nos.nl/artikel/2537306-tito-jackson-70-lid-van-jackson-5-overleden",
-            "status" => "true",
+            "status" => true,
             "text" => `De Amerikaanse muzikant Tito Jackson is op 70-jarige leeftijd overleden. Dat maken zijn zonen bekend op Instagram. Tito Jackson was een van de negen kinderen uit de muzikale Jackson-familie, net als Michael, Janet en Jermaine.
                         Tito, geboren als Toriano Adaryll Jackson, was een van de broers die samen de groep Jackson 5 vormden. Michael en Jermaine waren daar ook lid van. Zij begonnen later een solocarrière en Michael werd een muzikale superster.
                         Voor Tito gold dat niet. Hij bleef meer op de achtergrond en speelde in de Jackson 5 gitaar en zong op de achtergrond. De groep had had hits met nummers als ABC, I Want You Back and I'll Be There. The Jackson 5 is in 1997 opgenomen in de Rock and Roll Hall of Fame.
@@ -24,7 +24,7 @@ function getArticle()
             "name" => "Gorilla Bokito (27) tijdens narcose doodgegaan in Diergaarde Blijdorp",
             "image" => "",
             "link" => "https://nos.nl/artikel/2470274-gorilla-bokito-27-tijdens-narcose-doodgegaan-in-diergaarde-blijdorp",
-            "status" => "true",
+            "status" => true,
             "text" => `Gorilla Bokito uit Diergaarde Blijdorp in Rotterdam is op 27-jarige leeftijd doodgegaan. Dat gebeurde gisteren, tijdens een narcose. Het dier was sinds zondag niet in orde.
                         Blijdorp onderzocht maandag de mest van de gorilla om te zien wat er aan de hand was. Ook werd Bokito extra geobserveerd. Gisteren was de situatie nog niet verbeterd. De dierentuin heeft het dier onder narcose nog vocht toegediend, maar het overleed tijdens de narcose. Naar de oorzaak van het onverwachte overlijden wordt onderzoek gedaan.
                         Volgens Blijdorp is de hele gorillagroep aangeslagen door de gebeurtenis. Onder medewerkers van de dierentuin, en vooral onder de verzorgers van de apen, heerst verslagenheid. In het wild worden gorilla's 35 tot 40 jaar oud.`
@@ -34,7 +34,7 @@ function getArticle()
             "name" => "New Planet Discovered",
             "image" => "",
             "link" => "",
-            "status" => "fake",
+            "status" => fake,
             "text" => `Scientists have made an astonishing announcement this week: the discovery of a new planet within our solar system. 
                         Named "Nubira," this previously unknown planet orbits just beyond Neptune and was identified using cutting-edge telescope technology. 
                         Nubira is estimated to be about the size of Mars, but what makes it truly remarkable is the presence of a thin atmosphere that contains 
@@ -53,7 +53,7 @@ function getArticle()
             "name" => "Banned Technology: Telepathic Communication Devices",
             "image" => "",
             "link" => "",
-            "status" => "false",
+            "status" => false,
             "text" => `In a breakthrough that sounds like science fiction, a secret U.S. military project has reportedly developed a device that allows 
                         for telepathic communication. Dubbed "MindLink," this device translates brainwaves into speech, enabling people to communicate thoughts without 
                         uttering a word. The technology works by capturing neural signals and converting them into digital data, which is then transmitted to another 
@@ -71,7 +71,7 @@ function getArticle()
             "name" => "Spar",
             "image" => "",
             "link" => "https://nos.nl/collectie/13885/artikel/2411338-zacht-weer-vuurwerkverbod-en-corona-hoe-gaat-politie-de-jaarwisseling-in",
-            "status" => "true",
+            "status" => true,
             "text" => `De komende jaarwisseling heeft een aantal gelijkenissen met de vorige: ook nu waart het coronavirus rond, is er een lockdown van 
                         kracht en geldt er een vuurwerkverbod. Toch wordt deze Oud en Nieuw extra spannend voor de politie, denkt coronacommandant bij de nationale 
                         politie Willem Woelders. Want 2021 wordt vrijdagavond afgesloten met zeer zacht weer, na een jaar met een reeks geweldsincidenten tegen de 
@@ -96,7 +96,7 @@ function getArticle()
             "name" => "Adele stops Las Vegas show to tell security to leave fan alone",
             "image" => "",
             "link" => "https://abc7chicago.com/adele-las-vegas-security-guard-viral-video/13713288/",
-            "status" => "true",
+            "status" => true,
             "text" => `Adele stopped her show Saturday night in Las Vegas to scold a security guard who was "bothering" an audience member.
 
                         According to video of the incident shared on social media, Adele was in the middle of singing "Water Under the Bridge" and stopped the music to ask what was going 
@@ -124,7 +124,7 @@ function getArticle()
             "name" => "Wetenschappers Ontdekken Bomen Die Zuurstof Absorberen in Plaats van Produceren",
             "image" => "",
             "link" => "",
-            "status" => "false",
+            "status" => false,
             "text" => `In een onverwachte ontdekking hebben botanici aan de Universiteit van Wageningen een boomsoort geïdentificeerd die geen zuurstof 
                         produceert, maar het juist absorbeert. Deze bomen, gevonden in een afgelegen deel van de Amazone, gedragen zich tegengesteld aan wat we van 
                         planten gewend zijn. In plaats van fotosynthese, waarbij planten koolstofdioxide opnemen en zuurstof afgeven, nemen deze bomen zuurstof uit 
@@ -147,7 +147,7 @@ function getArticle()
             "name" => "Donald Trump gets his mug shot taken",
             "image" => "",
             "link" => "",
-            "status" => "",
+            "status" => true,
             "text" => `A camera clicks. In a fraction of a second, the shutter opens and then closes, freezing forever the image in front of it.
 
                         When the camera shutter blinked inside an Atlanta jail on Thursday, it both created and documented a tiny inflection point in American life. Captured 
@@ -172,7 +172,7 @@ function getArticle()
             "name" => "The Beatles to release emotional 'final song', Now and Then, next week",
             "image" => "",
             "link" => "https://www.bbc.com/news/entertainment-arts-67207699",
-            "status" => "true",
+            "status" => true,
             "text" => `More than 50 years after The Beatles broke up, the band have announced the release of their "last song".
 
                         Called Now And Then, it is based on a 1970s demo recording by John Lennon, and was completed last year by Sir Paul McCartney and Sir Ringo Starr.
@@ -190,7 +190,7 @@ function getArticle()
             "name" => "Rupert Grint Diagnosed with Bone Cancer: A Brave Fight Ahead",
             "image" => "",
             "link" => "",
-            "status" => "false",
+            "status" => false,
             "text" => `In a shocking announcement, it has been revealed that actor Rupert Grint, beloved for his role as Ron Weasley in the 
                         Harry Potter series, has been diagnosed with bone cancer. The 35-year-old actor, who has maintained a relatively private life in 
                         recent years, shared the heartbreaking news through a statement issued by his publicist earlier this week.
