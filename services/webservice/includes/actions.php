@@ -34,7 +34,7 @@ function getArticle()
             "name" => "New Planet Discovered",
             "image" => "",
             "link" => "",
-            "status" => fake,
+            "status" => false,
             "text" => `Scientists have made an astonishing announcement this week: the discovery of a new planet within our solar system. 
                         Named "Nubira," this previously unknown planet orbits just beyond Neptune and was identified using cutting-edge telescope technology. 
                         Nubira is estimated to be about the size of Mars, but what makes it truly remarkable is the presence of a thin atmosphere that contains 
