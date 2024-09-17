@@ -16,10 +16,14 @@ nav {
     display: flex;
     flex-direction: column;
     margin: auto;
+    text-align: justify;
 }
 
 #articleImage {
     height: auto;
     width: 25vw;
-    align-self: flex-end;
+}
+
+#articleImage img {
+    float: right;
 }
