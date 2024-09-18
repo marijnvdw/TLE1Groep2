@@ -3,6 +3,9 @@ window.addEventListener('load', init);
 let testExplanation
 let testArticles
 let testResults
+let buttonAI
+let buttonHuman
+
 let articlesData
 //articleNumber wordt gebruikt om het artikel aan te duiden dat momenteel op de pagina staat.
 let articleNumber = 0
@@ -29,6 +32,12 @@ function elementLoader() {
     testExplanation = document.getElementById("testExplanation")
     testArticles = document.getElementById("testArticles")
     testResults = document.getElementById("testResults")
+
+    buttonAI = document.getElementById("chooseAI")
+    buttonAI.addEventListener('click', nextArticleButtonPress(true));
+
+    buttonHuman = document.getElementById("chooseHuman")
+    buttonHuman.addEventListener('click', nextArticleButtonPress(false));
 }
 
 function jsonLoader(data) {
@@ -56,4 +65,10 @@ function loadFirstArticle() {
 
 function loadNextArticle() {
 
+}
+
+function nextArticleButtonPress(choice) {
+    if (condition) {
+
+    }
 }

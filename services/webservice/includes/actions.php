@@ -20,9 +20,7 @@
                 "image" => "images/artikel_2.jpg",
                 "link" => "https://nos.nl/artikel/2470274-gorilla-bokito-27-tijdens-narcose-doodgegaan-in-diergaarde-blijdorp",
                 "status" => true,
-                "text" => `Gorilla Bokito uit Diergaarde Blijdorp in Rotterdam is op 27-jarige leeftijd doodgegaan. Dat gebeurde gisteren, tijdens een narcose. Het dier was sinds zondag niet in orde.
-                        Blijdorp onderzocht maandag de mest van de gorilla om te zien wat er aan de hand was. Ook werd Bokito extra geobserveerd. Gisteren was de situatie nog niet verbeterd. De dierentuin heeft het dier onder narcose nog vocht toegediend, maar het overleed tijdens de narcose. Naar de oorzaak van het onverwachte overlijden wordt onderzoek gedaan.
-                        Volgens Blijdorp is de hele gorillagroep aangeslagen door de gebeurtenis. Onder medewerkers van de dierentuin, en vooral onder de verzorgers van de apen, heerst verslagenheid. In het wild worden gorilla's 35 tot 40 jaar oud.`
+                "text" => "<p>Gorilla Bokito uit Diergaarde Blijdorp in Rotterdam is op 27-jarige leeftijd doodgegaan. Dat gebeurde gisteren, tijdens een narcose. Het dier was sinds zondag niet in orde.</p><p>Blijdorp onderzocht maandag de mest van de gorilla om te zien wat er aan de hand was. Ook werd Bokito extra geobserveerd. Gisteren was de situatie nog niet verbeterd. De dierentuin heeft het dier onder narcose nog vocht toegediend, maar het overleed tijdens de narcose. Naar de oorzaak van het onverwachte overlijden wordt onderzoek gedaan.</p><p>Volgens Blijdorp is de hele gorillagroep aangeslagen door de gebeurtenis. Onder medewerkers van de dierentuin, en vooral onder de verzorgers van de apen, heerst verslagenheid. In het wild worden gorilla's 35 tot 40 jaar oud.</p>"
             ],
             [
                 "id" => 3,
