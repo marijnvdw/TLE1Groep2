@@ -18,9 +18,9 @@
     <?php require_once('nav.html'); ?>
 
     <script>
-
-          fetch('services/webservice/index.php') 
-            .then(response => response.json())
+        // Use the fetch API to get the JSON data from the PHP file
+        fetch('services/webservice/index.php') // Assumes your PHP file is called data.php
+            .then(response => response.json()) // Parse the response as JSON
             .then(data => {
                 console.log(data); 
             })
@@ -32,7 +32,8 @@
 
     <main>
         <!-- <div id="testExplanation">
-            <p>In this test you will be choosing if an article has been written by artificial intelligence or a human.
+            <p>
+                In this test you will be choosing if an article has been written by artificial intelligence or a human.
             </p>
             <button>Start test</button>
         </div> -->
@@ -42,7 +43,7 @@
                 <div class="wrappedImageDiv">
                     <img id="articleImage" src="images/1000_F_142628436_BdXXMV34Xf665lwSRmBbAVICjFXh7vG9.jpg">
                 </div>
-                <div class="wrappedTextDiv">
+                <div id="articleText">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean erat nunc, tempor non
                         molestie
