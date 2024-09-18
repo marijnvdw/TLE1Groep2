@@ -1,8 +1,15 @@
 window.addEventListener('load', init);
 
+let testExplanation
+let testArticles
+let testResults
+let articlesData
+//articleNumber wordt gebruikt om het artikel aan te duiden dat momenteel op de pagina staat.
+let articleNumber = 0
+
+
 function init() {
     ajaxRequest('services/webservice/index.php', jsonLoader)
-    console.log('test')
 }
 
 function ajaxRequest(url, successHandler) {
@@ -24,4 +31,22 @@ function elementLoader() {
 
 function jsonLoader(data) {
     console.log(data)
+    articlesData = data
+    loadFirstArticle()
+}
+
+function loadFirstArticle() {
+    let articleData = articlesData[0]
+    console.log(articleData['text'])
+
+    articleTitle = document.getElementById("articleTitle")
+    articleTitle.innerHTML = articleData['name']
+
+    articleText = document.getElementById("articleText")
+    articleText.innerHTML = articleData['text']
+
+}
+
+function loadNextArticle() {
+
 }
