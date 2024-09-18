@@ -47,7 +47,8 @@
 
     <main>
         <div id="testExplanation">
-            <p>In this test you will be choosing if an article has been written by artificial intelligence or a human.
+            <p>
+                In this test you will be choosing if an article has been written by artificial intelligence or a human.
             </p>
             <button>Start test</button>
         </div>

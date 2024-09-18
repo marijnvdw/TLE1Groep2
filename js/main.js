@@ -1,6 +1,5 @@
 window.addEventListener('load', init);
 
-console.log('javascript is online')
 
 function init() {
     ajaxRequest('services/webservice/index.php', jsonLoader)
