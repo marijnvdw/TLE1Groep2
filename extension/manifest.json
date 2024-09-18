@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "simpele extensie",
+    "version": "1.0",
+    "description": "een eenvoudige extensie voor chrome",
+    "action": {
+        "default_popup": "index.html"
+    },
+    "permission": [
+        "tabs"
+    ]
+}
