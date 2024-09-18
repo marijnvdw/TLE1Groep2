@@ -7,6 +7,8 @@ let articlesData
 //articleNumber wordt gebruikt om het artikel aan te duiden dat momenteel op de pagina staat.
 let articleNumber = 0
 
+let correctGuesses = 0
+
 
 function init() {
     ajaxRequest('services/webservice/index.php', jsonLoader)
@@ -36,7 +38,7 @@ function jsonLoader(data) {
 }
 
 function loadFirstArticle() {
-    let articleData = articlesData[0]
+    let articleData = articlesData[articleNumber]
     console.log(articleData['text'])
 
     articleTitle = document.getElementById("articleTitle")
@@ -45,6 +47,11 @@ function loadFirstArticle() {
     articleText = document.getElementById("articleText")
     articleText.innerHTML = articleData['text']
 
+    articleImage = document.getElementById("articleImage")
+    articleImage.src = articleData['image']
+
+    questionCounter = document.getElementById("questionCounter")
+    questionCounter.innerHTML = `${articleNumber + 1}/10`
 }
 
 function loadNextArticle() {
