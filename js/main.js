@@ -1,8 +1,8 @@
 window.addEventListener('load', init);
 
-
 function init() {
     ajaxRequest('services/webservice/index.php', jsonLoader)
+    console.log('test')
 }
 
 function ajaxRequest(url, successHandler) {
