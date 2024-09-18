@@ -1,10 +1,11 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
+import config from './config.js';
 
 let trueRating;
 let progressExecuted = false;
-
+let key = config.API_KEY;
 // Q: API Segment
-const apiKey = "rip";
+const apiKey = key;
 const genAI = new GoogleGenerativeAI(apiKey);
 const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 const button = document.getElementById('myButton');
