@@ -37,7 +37,7 @@
             </p>
             <button>Start test</button>
         </div>
-        <div id="testArticles">
+        <div id="testArticles" class="">
             <div id="article">
                 <h2 id="articleTitle">Lorem ipsum</h2>
                 <div class="wrappedImageDiv">

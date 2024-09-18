@@ -72,7 +72,6 @@ function loadFirstArticle() {
 
 function loadNextArticle() {
     let articleData = articlesData[articleNumber]
-    console.log(articleData['text'])
 
     articleTitle = document.getElementById("articleTitle")
     articleTitle.innerHTML = articleData['name']
@@ -96,9 +95,19 @@ function nextArticleButtonPress(choice) {
         //answer is correct, add point to score
         correctGuesses += 1
     }
-    //go to the next article
-    articleNumber += 1
-    loadNextArticle()
+    //check if article is the last article
+    if (articleNumber < 9) {
+        //go to the next article
+        articleNumber += 1
+        loadNextArticle()
+    } else {
+        //laat de laatste pagina met de score zien
+        console.log('this is the last article')
+
+
+    }
+
+
 
     console.log(correctGuesses)
 }
