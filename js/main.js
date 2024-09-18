@@ -3,7 +3,8 @@ window.addEventListener('load', init);
 let testExplanation
 let testArticles
 let testResults
-let articleData
+let articlesData
+let articleNumber = 0
 
 
 function init() {
@@ -29,12 +30,17 @@ function elementLoader() {
 
 function jsonLoader(data) {
     console.log(data)
-    articleData = data
+    articlesData = data
     loadFirstArticle()
 }
 
 function loadFirstArticle() {
-    console.log(articleData[0])
+    let articleData = articlesData[0]
+    console.log(articleData)
+
+    articleTitle = document.getElementById("articleTitle")
+    articleTitle.innerHTML = articleData[0['name']]
+
 }
 
 function loadNextArticle() {
