@@ -8,7 +8,7 @@ let buttonHuman
 
 let articlesData
 //articleNumber wordt gebruikt om het artikel aan te duiden dat momenteel op de pagina staat.
-let articleNumber = 0
+let articleNumber = 3
 
 let correctGuesses = 0
 
