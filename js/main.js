@@ -94,4 +94,6 @@ function nextArticleButtonPress(choice) {
     //go to the next article
     articleNumber += 1
     loadNextArticle()
+
+    console.log(correctGuesses)
 }
