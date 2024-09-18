@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     height: 100vh;
     margin: 0;
-    background-color: #f4f4f4;
+    background-color:#616c7d;
 }
 
 /* Nav Styling */
@@ -37,12 +37,10 @@ body {
 
 /* End Nav Styling */
 
-.container {
-    text-align: center;
-}
+
 
 .progress-bar {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 svg {
@@ -69,8 +67,8 @@ circle {
 }
 
 textarea {
-    width: 100%;
-    height: 150px;
+    height: 250px;
+    width: 400px;
     padding: 12px 20px;
     box-sizing: border-box;
     border: 2px solid #ccc;
@@ -85,9 +83,8 @@ footer {
     color: #fff;
     padding: 20px 0;
     text-align: center;
-    position: relative;
     width: 100%;
-position: fixed;
+    position: fixed;
     left: 0;
     bottom: 0;
 }
@@ -118,3 +115,39 @@ position: fixed;
     color: #ff4081;
 }
 
+.container {
+    display: flex;
+    text-align: center;
+}
+
+
+#prompt {
+
+    width: 300px;
+    height: 30px;
+
+}
+#myButton {
+    width: 250px;
+    margin-left: 30px;
+}
+
+#forms {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+
+#myButton:hover {
+    transition: 0.3s;
+    cursor: pointer;
+    text-shadow: 2px 2px 5px #616c7d;
+    background-color: #bebfc2;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#Score {
+    padding-right: 50px;
+
+}
