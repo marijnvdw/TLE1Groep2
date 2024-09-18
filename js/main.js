@@ -1,8 +1,13 @@
 window.addEventListener('load', init);
 
+let testExplanation
+let testArticles
+let testResults
+let articleData
+
+
 function init() {
     ajaxRequest('services/webservice/index.php', jsonLoader)
-    console.log('test')
 }
 
 function ajaxRequest(url, successHandler) {
@@ -24,4 +29,14 @@ function elementLoader() {
 
 function jsonLoader(data) {
     console.log(data)
+    articleData = data
+    loadFirstArticle()
+}
+
+function loadFirstArticle() {
+    console.log(articleData[0])
+}
+
+function loadNextArticle() {
+
 }
