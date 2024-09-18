@@ -2,9 +2,16 @@ body {
     font-family: Arial, sans-serif;
 
     width: 96vw;
-    height: 96.5vh;
+    height: 97vh;
     background-color: rgb(151, 209, 222);
     overflow-x: hidden;
+}
+
+.headerP{
+    text-align: center;
+    font-size: 1.1rem;
+    color: white;
+    font-weight: bold;
 }
 
 .extensionContainer {
@@ -67,7 +74,8 @@ button:hover {
 .single-chart {
     width: 33%;
     justify-content: space-around;
-    scale: 1;
+    scale: 0.6;
+    flex: 1;
 }
 
 .hidden{
@@ -101,7 +109,7 @@ button:hover {
 }
 
 .circular-chart.orange .circle {
-    stroke: #ff9f00;
+    stroke: #03890e;
 }
 
 .circular-chart.green .circle {
@@ -114,4 +122,26 @@ button:hover {
     font-size: 0.7em;
     font-weight: bold;
     text-anchor: middle;
+}
+
+.circleAndTextContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+
+.textContainer h2 {
+    flex: 1;
+    
+}
+
+.textContainer p {
+    flex: 3;
 }
