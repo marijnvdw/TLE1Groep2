@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script type="text/javascript" src="js/main.js" defer></script>
     <title>Website</title>
 </head>
@@ -15,34 +14,19 @@
         <i class="fa-solid fa-bars nav-button" id="toggleMenu"></i>
         <h1>Is this article made by AI or by a Human?</h1>
     </header>
-    <div id="sideMenu">
-        <i id="closeMenu">&times; </i>
-        <p>Menu Content</p>
-    </div>
+    
+    <?php require_once('nav.html'); ?>
 
     <script>
 
-          // Use the fetch API to get the JSON data from the PHP file
-          fetch('services/webservice/index.php') // Assumes your PHP file is called data.php
-            .then(response => response.json()) // Parse the response as JSON
+          fetch('services/webservice/index.php') 
+            .then(response => response.json())
             .then(data => {
-                console.log(data); // Log the data to the console
+                console.log(data); 
             })
             .catch(error => {
-                console.error('Error fetching data:', error); // Handle errors
+                console.error('Error fetching data:', error); 
             });
-
-        // Toggle het menu aan/uit wanneer op het hamburgermenu wordt geklikt
-        document.getElementById('toggleMenu').addEventListener('click', function() {
-            var sideMenu = document.getElementById('sideMenu');
-            sideMenu.classList.add('show');
-        });
-
-        // Sluit het menu wanneer op de close-button wordt geklikt
-        document.getElementById('closeMenu').addEventListener('click', function() {
-            var sideMenu = document.getElementById('sideMenu');
-            sideMenu.classList.remove('show');
-        });
     </script>
 
 
