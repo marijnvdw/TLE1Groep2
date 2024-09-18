@@ -4,6 +4,7 @@ let testExplanation
 let testArticles
 let testResults
 let articlesData
+//articleNumber wordt gebruikt om het artikel aan te duiden dat momenteel op de pagina staat.
 let articleNumber = 0
 
 
@@ -36,10 +37,10 @@ function jsonLoader(data) {
 
 function loadFirstArticle() {
     let articleData = articlesData[0]
-    console.log(articleData)
+    console.log(articleData['name'])
 
     articleTitle = document.getElementById("articleTitle")
-    articleTitle.innerHTML = articleData[0['name']]
+    articleTitle.innerHTML = articleData['name']
 
 }
 
