@@ -58,7 +58,7 @@
                 <div class="wrappedImageDiv">
                     <img id="articleImage" src="images/1000_F_142628436_BdXXMV34Xf665lwSRmBbAVICjFXh7vG9.jpg">
                 </div>
-                <div class="wrappedTextDiv">
+                <div id="articleText">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean erat nunc, tempor non
                         molestie

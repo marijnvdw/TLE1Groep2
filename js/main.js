@@ -37,10 +37,13 @@ function jsonLoader(data) {
 
 function loadFirstArticle() {
     let articleData = articlesData[0]
-    console.log(articleData['name'])
+    console.log(articleData['text'])
 
     articleTitle = document.getElementById("articleTitle")
     articleTitle.innerHTML = articleData['name']
+
+    articleText = document.getElementById("articleText")
+    articleText.innerHTML = articleData['text']
 
 }
 
