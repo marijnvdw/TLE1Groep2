@@ -67,7 +67,7 @@ function loadFirstArticle() {
     questionCounter.innerHTML = `${articleNumber + 1}/10`
 
     correctCounter = document.getElementById("correctCounter")
-    correctCounter.innerHTML = `Good answers: ${correctGuesses}/10`
+    correctCounter.innerHTML = `Good answers: ${correctGuesses}/0`
 }
 
 function loadNextArticle() {
@@ -87,7 +87,7 @@ function loadNextArticle() {
     questionCounter.innerHTML = `${articleNumber + 1}/10`
 
     correctCounter = document.getElementById("correctCounter")
-    correctCounter.innerHTML = `Good answers: ${correctGuesses}/10`
+    correctCounter.innerHTML = `Good answers: ${correctGuesses}/${articleNumber}`
 }
 
 function nextArticleButtonPress(choice) {
