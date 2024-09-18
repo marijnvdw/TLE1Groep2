@@ -54,6 +54,7 @@ circle {
     transition: stroke-dashoffset 1s ease-in-out;
 }
 
+
 .main {
     margin-top: 50px;
     display: flex;
@@ -116,3 +117,4 @@ position: fixed;
 .socials a:hover {
     color: #ff4081;
 }
+

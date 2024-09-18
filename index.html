@@ -10,6 +10,16 @@
     <script src="./js/main.js"></script>
 </head>
 
+<script type="importmap">
+    {
+      "imports": {
+        "@google/generative-ai": "https://esm.run/@google/generative-ai"
+      }
+    }
+</script>
+
+    <script defer type="module" src="./js/main.js"></script>
+
 <body>
     <div class="topnav">
         <a class="active" href="#home">Home</a>
@@ -18,9 +28,11 @@
         <a href="#about">About</a>
     </div>
     <section class="main">
-        <div class="textbox" id="generated">
-            <textarea></textarea>
-        </div>
+        <form>
+            <label for="prompt">Enter your prompt:</label>
+            <input type="text" id="prompt" name="prompt">
+            <button type="button" id="myButton">Click me!</button>
+        </form>
         <div class="container">
             <div class="progress-bar">
                 <svg viewBox="0 0 100 100" width="150" height="150">
@@ -29,6 +41,7 @@
                         stroke-dasharray="283" stroke-dashoffset="283"></circle>
                 </svg>
             </div>
+            <div id="response"></div>
             <button onclick="startProgress(70)">Start Progress</button>
             <div id="result"></div>
         </div>
