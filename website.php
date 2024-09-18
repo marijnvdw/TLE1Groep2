@@ -21,9 +21,8 @@
     </div>
 
     <script>
-
-          // Use the fetch API to get the JSON data from the PHP file
-          fetch('services/webservice/index.php') // Assumes your PHP file is called data.php
+        // Use the fetch API to get the JSON data from the PHP file
+        fetch('services/webservice/index.php') // Assumes your PHP file is called data.php
             .then(response => response.json()) // Parse the response as JSON
             .then(data => {
                 console.log(data); // Log the data to the console
@@ -47,11 +46,11 @@
 
 
     <main>
-        <!-- <div id="testExplanation">
+        <div id="testExplanation">
             <p>In this test you will be choosing if an article has been written by artificial intelligence or a human.
             </p>
             <button>Start test</button>
-        </div> -->
+        </div>
         <div id="testArticles">
             <div id="article">
                 <h2 id="articleTitle">Lorem ipsum</h2>
@@ -184,10 +183,10 @@
                 <button id="chooseHuman">Human</button>
             </div>
         </div>
-        <!-- <div id="testResults">
+        <div id="testResults">
             <p>You scored 6/10</p>
             <button>Return to home</button>
-        </div> -->
+        </div>
     </main>
 
     <footer>
