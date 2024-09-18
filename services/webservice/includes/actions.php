@@ -8,26 +8,24 @@
             [
                 "id" => 1,
                 "name" => "Tito Jackson (70), lid van Jackson 5, overleden",
-                "image" => "",
+                "image" => "images/artikel_1.jpg",
                 "link" => "https://nos.nl/artikel/2537306-tito-jackson-70-lid-van-jackson-5-overleden",
                 "status" => true,
-                "text" => "De Amerikaanse muzikant Tito Jackson is op 70-jarige leeftijd overleden. Dat maken zijn zonen bekend op Instagram. Tito Jackson was een van de negen kinderen uit de muzikale Jackson-familie, net als Michael, Janet en Jermaine.\nTito, geboren als Toriano Adaryll Jackson, was een van de broers die samen de groep Jackson 5 vormden. Michael en Jermaine waren daar ook lid van. Zij begonnen later een solocarrière en Michael werd een muzikale superster.\nVoor Tito gold dat niet. Hij bleef meer op de achtergrond en speelde in de Jackson 5 gitaar en zong op de achtergrond. De groep had hits met nummers als ABC, I Want You Back and I'll Be There. The Jackson 5 is in 1997 opgenomen in de Rock and Roll Hall of Fame.\nTito trad nog tot kort voor zijn overlijden op. Zo stond hij vorige week nog met zijn broers Marlon en Jackie op het podium in de Duitse stad München met de band The Jacksons.\nTito's zonen TJ, Taj and Taryll, zelf bekend als muzikaal trio 3T, zeggen geschokt te zijn door het overlijden van hun vader. \"We zijn verdrietig, ons hart is gebroken.\"\nHet Amerikaanse Entertainment Tonight zegt dat Tito volgens een familievriend aan een hartaanval is overleden, maar zijn zoons melden in het Instagrambericht niets over de doodsoorzaak."
+                "text" => "<p>De Amerikaanse muzikant Tito Jackson is op 70-jarige leeftijd overleden. Dat maken zijn zonen bekend op Instagram. Tito Jackson was een van de negen kinderen uit de muzikale Jackson-familie, net als Michael, Janet en Jermaine.</p><p>Tito, geboren als Toriano Adaryll Jackson, was een van de broers die samen de groep Jackson 5 vormden. Michael en Jermaine waren daar ook lid van. Zij begonnen later een solocarrière en Michael werd een muzikale superster.</p><p>Voor Tito gold dat niet. Hij bleef meer op de achtergrond en speelde in de Jackson 5 gitaar en zong op de achtergrond. De groep had hits met nummers als ABC, I Want You Back and I'll Be There. The Jackson 5 is in 1997 opgenomen in de Rock and Roll Hall of Fame.</p><p>Tito trad nog tot kort voor zijn overlijden op. Zo stond hij vorige week nog met zijn broers Marlon en Jackie op het podium in de Duitse stad München met de band The Jacksons.</p><p>Tito's zonen TJ, Taj and Taryll, zelf bekend als muzikaal trio 3T, zeggen geschokt te zijn door het overlijden van hun vader. \"We zijn verdrietig, ons hart is gebroken.\"</p><p>Het Amerikaanse Entertainment Tonight zegt dat Tito volgens een familievriend aan een hartaanval is overleden, maar zijn zoons melden in het Instagrambericht niets over de doodsoorzaak.</p>"
 
             ],
             [
                 "id" => 2,
                 "name" => "Gorilla Bokito (27) tijdens narcose doodgegaan in Diergaarde Blijdorp",
-                "image" => "",
+                "image" => "images/artikel_2.jpg",
                 "link" => "https://nos.nl/artikel/2470274-gorilla-bokito-27-tijdens-narcose-doodgegaan-in-diergaarde-blijdorp",
                 "status" => true,
-                "text" => `Gorilla Bokito uit Diergaarde Blijdorp in Rotterdam is op 27-jarige leeftijd doodgegaan. Dat gebeurde gisteren, tijdens een narcose. Het dier was sinds zondag niet in orde.
-                        Blijdorp onderzocht maandag de mest van de gorilla om te zien wat er aan de hand was. Ook werd Bokito extra geobserveerd. Gisteren was de situatie nog niet verbeterd. De dierentuin heeft het dier onder narcose nog vocht toegediend, maar het overleed tijdens de narcose. Naar de oorzaak van het onverwachte overlijden wordt onderzoek gedaan.
-                        Volgens Blijdorp is de hele gorillagroep aangeslagen door de gebeurtenis. Onder medewerkers van de dierentuin, en vooral onder de verzorgers van de apen, heerst verslagenheid. In het wild worden gorilla's 35 tot 40 jaar oud.`
+                "text" => "<p>Gorilla Bokito uit Diergaarde Blijdorp in Rotterdam is op 27-jarige leeftijd doodgegaan. Dat gebeurde gisteren, tijdens een narcose. Het dier was sinds zondag niet in orde.</p><p>Blijdorp onderzocht maandag de mest van de gorilla om te zien wat er aan de hand was. Ook werd Bokito extra geobserveerd. Gisteren was de situatie nog niet verbeterd. De dierentuin heeft het dier onder narcose nog vocht toegediend, maar het overleed tijdens de narcose. Naar de oorzaak van het onverwachte overlijden wordt onderzoek gedaan.</p><p>Volgens Blijdorp is de hele gorillagroep aangeslagen door de gebeurtenis. Onder medewerkers van de dierentuin, en vooral onder de verzorgers van de apen, heerst verslagenheid. In het wild worden gorilla's 35 tot 40 jaar oud.</p>"
             ],
             [
                 "id" => 3,
                 "name" => "New Planet Discovered",
-                "image" => "",
+                "image" => "images/artikel_3.jpg",
                 "link" => "",
                 "status" => false,
                 "text" => `Scientists have made an astonishing announcement this week: the discovery of a new planet within our solar system. 
@@ -46,7 +44,7 @@
             [
                 "id" => 4,
                 "name" => "Banned Technology: Telepathic Communication Devices",
-                "image" => "",
+                "image" => "images/artikel_4.jpg",
                 "link" => "",
                 "status" => false,
                 "text" => `In a breakthrough that sounds like science fiction, a secret U.S. military project has reportedly developed a device that allows 
@@ -64,7 +62,7 @@
             [
                 "id" => 5,
                 "name" => "Zacht weer, vuurwerkverbod en corona: hoe gaat politie de jaarwisseling in?",
-                "image" => "",
+                "image" => "images/artikel_5.jpg",
                 "link" => "https://nos.nl/collectie/13885/artikel/2411338-zacht-weer-vuurwerkverbod-en-corona-hoe-gaat-politie-de-jaarwisseling-in",
                 "status" => true,
                 "text" => `De komende jaarwisseling heeft een aantal gelijkenissen met de vorige: ook nu waart het coronavirus rond, is er een lockdown van 
@@ -89,7 +87,7 @@
             [
                 "id" => 6,
                 "name" => "Adele stops Las Vegas show to tell security to leave fan alone",
-                "image" => "",
+                "image" => "images/artikel_6.jpg",
                 "link" => "https://abc7chicago.com/adele-las-vegas-security-guard-viral-video/13713288/",
                 "status" => true,
                 "text" => `Adele stopped her show Saturday night in Las Vegas to scold a security guard who was "bothering" an audience member.
@@ -117,7 +115,7 @@
             [
                 "id" => 7,
                 "name" => "Wetenschappers Ontdekken Bomen Die Zuurstof Absorberen in Plaats van Produceren",
-                "image" => "",
+                "image" => "images/artikel_7.jpg",
                 "link" => "",
                 "status" => false,
                 "text" => `In een onverwachte ontdekking hebben botanici aan de Universiteit van Wageningen een boomsoort geïdentificeerd die geen zuurstof 
@@ -140,7 +138,7 @@
             [
                 "id" => 8,
                 "name" => "Donald Trump gets his mug shot taken",
-                "image" => "",
+                "image" => "images/artikel_8.jpg",
                 "link" => "",
                 "status" => true,
                 "text" => `A camera clicks. In a fraction of a second, the shutter opens and then closes, freezing forever the image in front of it.
@@ -165,7 +163,7 @@
             [
                 "id" => 9,
                 "name" => "The Beatles to release emotional 'final song', Now and Then, next week",
-                "image" => "",
+                "image" => "images/artikel_9.jpg",
                 "link" => "https://www.bbc.com/news/entertainment-arts-67207699",
                 "status" => true,
                 "text" => `More than 50 years after The Beatles broke up, the band have announced the release of their "last song".
@@ -183,7 +181,7 @@
             [
                 "id" => 10,
                 "name" => "Rupert Grint Diagnosed with Bone Cancer: A Brave Fight Ahead",
-                "image" => "",
+                "image" => "images/artikel_10.jpg",
                 "link" => "",
                 "status" => false,
                 "text" => `In a shocking announcement, it has been revealed that actor Rupert Grint, beloved for his role as Ron Weasley in the 
