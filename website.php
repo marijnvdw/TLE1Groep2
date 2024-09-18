@@ -31,12 +31,12 @@
 
 
     <main>
-        <!-- <div id="testExplanation">
+        <div id="testExplanation" class="hidden">
             <p>
                 In this test you will be choosing if an article has been written by artificial intelligence or a human.
             </p>
             <button>Start test</button>
-        </div> -->
+        </div>
         <div id="testArticles">
             <div id="article">
                 <h2 id="articleTitle">Lorem ipsum</h2>
@@ -172,10 +172,10 @@
                 <button id="chooseHuman">Human</button>
             </div>
         </div>
-        <!-- <div id="testResults">
+        <div id="testResults" class="hidden">
             <p>You scored 6/10</p>
             <button>Return to home</button>
-        </div> -->
+        </div>
     </main>
 
     <footer>
