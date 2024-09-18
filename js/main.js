@@ -14,6 +14,7 @@ let correctGuesses = 0
 
 
 function init() {
+    elementLoader()
     ajaxRequest('services/webservice/index.php', jsonLoader)
 }
 
@@ -29,15 +30,19 @@ function ajaxRequest(url, successHandler) {
 }
 
 function elementLoader() {
-    testExplanation = document.getElementById("testExplanation")
-    testArticles = document.getElementById("testArticles")
-    testResults = document.getElementById("testResults")
+    // testExplanation = document.getElementById("testExplanation")
+    // testArticles = document.getElementById("testArticles")
+    // testResults = document.getElementById("testResults")
 
     buttonAI = document.getElementById("chooseAI")
-    buttonAI.addEventListener('click', nextArticleButtonPress(true));
+    buttonAI.addEventListener('click', function () {
+        nextArticleButtonPress(false);
+    });
 
     buttonHuman = document.getElementById("chooseHuman")
-    buttonHuman.addEventListener('click', nextArticleButtonPress(false));
+    buttonHuman.addEventListener('click', function () {
+        nextArticleButtonPress(true);
+    });
 }
 
 function jsonLoader(data) {
@@ -64,11 +69,29 @@ function loadFirstArticle() {
 }
 
 function loadNextArticle() {
+    let articleData = articlesData[articleNumber]
+    console.log(articleData['text'])
 
+    articleTitle = document.getElementById("articleTitle")
+    articleTitle.innerHTML = articleData['name']
+
+    articleText = document.getElementById("articleText")
+    articleText.innerHTML = articleData['text']
+
+    articleImage = document.getElementById("articleImage")
+    articleImage.src = articleData['image']
+
+    questionCounter = document.getElementById("questionCounter")
+    questionCounter.innerHTML = `${articleNumber + 1}/10`
 }
 
 function nextArticleButtonPress(choice) {
-    if (condition) {
-
+    //check if the answer is correct and add a point to the score if it is correct
+    if (articlesData[articleNumber]["status"] === choice) {
+        //answer is correct, add point to score
+        correctGuesses += 1
     }
+    //go to the next article
+    articleNumber += 1
+    loadNextArticle()
 }
