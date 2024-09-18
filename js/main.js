@@ -8,7 +8,7 @@ let buttonHuman
 
 let articlesData
 //articleNumber wordt gebruikt om het artikel aan te duiden dat momenteel op de pagina staat.
-let articleNumber = 3
+let articleNumber = 0
 
 let correctGuesses = 0
 
@@ -53,7 +53,6 @@ function jsonLoader(data) {
 
 function loadFirstArticle() {
     let articleData = articlesData[articleNumber]
-    console.log(articleData['text'])
 
     articleTitle = document.getElementById("articleTitle")
     articleTitle.innerHTML = articleData['name']
@@ -66,6 +65,9 @@ function loadFirstArticle() {
 
     questionCounter = document.getElementById("questionCounter")
     questionCounter.innerHTML = `${articleNumber + 1}/10`
+
+    correctCounter = document.getElementById("correctCounter")
+    correctCounter.innerHTML = `Good answers: ${correctGuesses}/10`
 }
 
 function loadNextArticle() {
@@ -83,6 +85,9 @@ function loadNextArticle() {
 
     questionCounter = document.getElementById("questionCounter")
     questionCounter.innerHTML = `${articleNumber + 1}/10`
+
+    correctCounter = document.getElementById("correctCounter")
+    correctCounter.innerHTML = `Good answers: ${correctGuesses}/10`
 }
 
 function nextArticleButtonPress(choice) {

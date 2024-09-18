@@ -94,6 +94,11 @@ footer {
     font-size: large;
 }
 
+.upperBottomText {
+    display: flex;
+    justify-content: space-between;
+}
+
 #questionCounter {
     display: flex;
     justify-self: left;

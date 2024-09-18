@@ -25,7 +25,7 @@
             [
                 "id" => 3,
                 "name" => "New Planet Discovered",
-                "image" => "images/artikel_3.png",
+                "image" => "images/artikel_3.jpg",
                 "link" => "",
                 "status" => false,
                 "text" => "<p>Scientists have made an astonishing announcement this week: the discovery of a new planet within our solar system. Named \"Nubira,\" this previously unknown planet orbits just beyond Neptune and was identified using cutting-edge telescope technology.</p><p>Nubira is estimated to be about the size of Mars, but what makes it truly remarkable is the presence of a thin atmosphere that contains traces of oxygen, which is uncommon for planets in this distant region. Even more intriguing, there is strong evidence to suggest that liquid water flows on its surface, hidden beneath icy layers. This has ignited speculation about the possibility of microbial life or even more complex organisms.</p><p>The discovery of Nubira challenges many long-standing theories about the formation and composition of our solar system, as no one expected to find another planet so far from the Sun. The scientific community is eagerly preparing for a series of future missions, potentially sending robotic probes to explore Nubira’s unique landscape. If water is confirmed, Nubira could become a prime candidate in the search for extraterrestrial life.</p>"
