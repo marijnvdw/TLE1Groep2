@@ -17,19 +17,6 @@
 
     <?php require_once('nav.html'); ?>
 
-    <script>
-        // Use the fetch API to get the JSON data from the PHP file
-        fetch('services/webservice/index.php') // Assumes your PHP file is called data.php
-            .then(response => response.json()) // Parse the response as JSON
-            .then(data => {
-                console.log(data);
-            })
-            .catch(error => {
-                console.error('Error fetching data:', error);
-            });
-    </script>
-
-
     <main>
         <div id="testExplanation" class="hidden">
             <p>
