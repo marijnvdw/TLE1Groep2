@@ -7,8 +7,10 @@ let buttonAI
 let buttonHuman
 
 let articlesData
-//articleNumber wordt gebruikt om het artikel aan te duiden dat momenteel op de pagina staat.
+//articleNumber wordt gebruikt om het artikel uit de database te halen.
+//articleTestNumber wordt gebruikt om het artikel aan te duiden dat momenteel op de pagina staat.
 let articleNumber = 0
+let articleTestNumber = 0
 
 let correctGuesses = 0
 
@@ -70,7 +72,7 @@ function loadFirstArticle() {
     articleImage.src = articleData['image']
 
     questionCounter = document.getElementById("questionCounter")
-    questionCounter.innerHTML = `${articleNumber + 1}/10`
+    questionCounter.innerHTML = `${articleTestNumber + 1}/10`
 
     correctCounter = document.getElementById("correctCounter")
     correctCounter.innerHTML = `Good answers: ${correctGuesses}/0`
@@ -89,10 +91,10 @@ function loadNextArticle() {
     articleImage.src = articleData['image']
 
     questionCounter = document.getElementById("questionCounter")
-    questionCounter.innerHTML = `${articleNumber + 1}/10`
+    questionCounter.innerHTML = `${articleTestNumber + 1}/10`
 
     correctCounter = document.getElementById("correctCounter")
-    correctCounter.innerHTML = `Good answers: ${correctGuesses}/${articleNumber}`
+    correctCounter.innerHTML = `Good answers: ${correctGuesses}/${articleTestNumber}`
 }
 
 function nextArticleButtonPress(choice) {
@@ -102,15 +104,15 @@ function nextArticleButtonPress(choice) {
         correctGuesses += 1
     }
     //check if article is the last article
-    if (articleNumber < 9) {
+    if (articleTestNumber < 9) {
         //go to the next article
         articleNumber += 1
+        articleTestNumber += 1
         loadNextArticle()
     } else {
         //laat de laatste pagina met de score zien
         console.log('this is the last article')
-
-
+        endTest()
     }
 
     console.log(correctGuesses)
@@ -122,10 +124,20 @@ function startTest(language) {
         console.log('start test in mixed languages')
     }
 
-
     testExplanation = document.getElementById("testExplanation")
     testExplanation.classList.add("hidden")
 
     testArticles = document.getElementById("testArticles")
     testArticles.classList.remove("hidden")
+}
+
+function endTest() {
+    resultsScore = document.getElementById("resultsScore")
+    resultsScore.innerHTML = `You scored ${correctGuesses}/10`
+
+    testArticles = document.getElementById("testArticles")
+    testArticles.classList.add("hidden")
+
+    testResults = document.getElementById("testResults")
+    testResults.classList.remove("hidden")
 }
