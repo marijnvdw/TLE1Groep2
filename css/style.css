@@ -106,6 +106,14 @@ footer {
     justify-content: space-between;
 }
 
+#testExplanation {
+    margin: 20vh;
+}
+
+#testResults {
+    margin: 20vh;
+}
+
 #questionCounter {
     display: flex;
     justify-self: left;
