@@ -34,6 +34,11 @@ function elementLoader() {
     // testArticles = document.getElementById("testArticles")
     // testResults = document.getElementById("testResults")
 
+    startTestMixed = document.getElementById("startTestMixed")
+    startTestMixed.addEventListener('click', function () {
+        startTest('mixed')
+    });
+
     buttonAI = document.getElementById("chooseAI")
     buttonAI.addEventListener('click', function () {
         nextArticleButtonPress(false);
@@ -66,11 +71,13 @@ function loadFirstArticle() {
 
     questionCounter = document.getElementById("questionCounter")
     questionCounter.innerHTML = `${articleNumber + 1}/10`
+
+    correctCounter = document.getElementById("correctCounter")
+    correctCounter.innerHTML = `Good answers: ${correctGuesses}/0`
 }
 
 function loadNextArticle() {
     let articleData = articlesData[articleNumber]
-    console.log(articleData['text'])
 
     articleTitle = document.getElementById("articleTitle")
     articleTitle.innerHTML = articleData['name']
@@ -83,6 +90,9 @@ function loadNextArticle() {
 
     questionCounter = document.getElementById("questionCounter")
     questionCounter.innerHTML = `${articleNumber + 1}/10`
+
+    correctCounter = document.getElementById("correctCounter")
+    correctCounter.innerHTML = `Good answers: ${correctGuesses}/${articleNumber}`
 }
 
 function nextArticleButtonPress(choice) {
@@ -91,9 +101,31 @@ function nextArticleButtonPress(choice) {
         //answer is correct, add point to score
         correctGuesses += 1
     }
-    //go to the next article
-    articleNumber += 1
-    loadNextArticle()
+    //check if article is the last article
+    if (articleNumber < 9) {
+        //go to the next article
+        articleNumber += 1
+        loadNextArticle()
+    } else {
+        //laat de laatste pagina met de score zien
+        console.log('this is the last article')
+
+
+    }
 
     console.log(correctGuesses)
+}
+
+function startTest(language) {
+    if (language === 'mixed') {
+        articleNumber = 0
+        console.log('start test in mixed languages')
+    }
+
+
+    testExplanation = document.getElementById("testExplanation")
+    testExplanation.classList.add("hidden")
+
+    testArticles = document.getElementById("testArticles")
+    testArticles.classList.remove("hidden")
 }
