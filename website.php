@@ -33,7 +33,7 @@
                     <img id="articleImage" src="images/1000_F_142628436_BdXXMV34Xf665lwSRmBbAVICjFXh7vG9.jpg">
                 </div>
                 <div id="articleText">
-                   
+
                 </div>
             </div>
             <div class="bottomText">
@@ -47,6 +47,15 @@
                 <button id="chooseAI">AI</button>
                 <button id="chooseHuman">Human</button>
             </div>
+            <div id="articleInfo" class="hidden">
+                <div id="articleType">
+                    this article was made by ai
+                </div>
+                <div id="sourceLink">
+
+                </div>
+                <button id="continueToNextArticle">Continue</button>
+            </div>
         </div>
         <div id="testResults" class="hidden">
             <div id="resultsScore">You scored 6/10</div>
@@ -55,7 +64,7 @@
     </main>
 
     <footer>
-    © - Quinten van der Blom, Hidde Scheringa, Jaimy van den Berg, Marijn van de Waterlaat, David de Knegt, Sem van Osch
+        © - Quinten van der Blom, Hidde Scheringa, Jaimy van den Berg, Marijn van de Waterlaat, David de Knegt, Sem van Osch
     </footer>
 </body>
 
