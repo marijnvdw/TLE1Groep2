@@ -34,6 +34,11 @@ function elementLoader() {
     // testArticles = document.getElementById("testArticles")
     // testResults = document.getElementById("testResults")
 
+    startTestMixed = document.getElementById("startTestMixed")
+    startTestMixed.addEventListener('click', function () {
+        startTest('mixed')
+    });
+
     buttonAI = document.getElementById("chooseAI")
     buttonAI.addEventListener('click', function () {
         nextArticleButtonPress(false);
@@ -107,7 +112,19 @@ function nextArticleButtonPress(choice) {
 
     }
 
-
-
     console.log(correctGuesses)
+}
+
+function startTest(language) {
+    if (language === 'mixed') {
+        articleNumber = 0
+        console.log('start test in mixed languages')
+    }
+
+
+    testExplanation = document.getElementById("testExplanation")
+    testExplanation.classList.add("hidden")
+
+    testArticles = document.getElementById("testArticles")
+    testArticles.classList.remove("hidden")
 }

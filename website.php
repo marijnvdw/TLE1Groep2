@@ -18,13 +18,15 @@
     <?php require_once('nav.html'); ?>
 
     <main>
-        <div id="testExplanation" class="hidden">
-            <p>
-                In this test you will be choosing if an article has been written by artificial intelligence or a human.
-            </p>
-            <button>Start test</button>
+        <div id="testExplanation" class="">
+            <div>
+                <p>
+                    In this test you will be choosing if an article has been written by artificial intelligence or a human.
+                </p>
+            </div>
+            <button id="startTestMixed">Start test</button>
         </div>
-        <div id="testArticles" class="">
+        <div id="testArticles" class="hidden">
             <div id="article">
                 <h2 id="articleTitle">Lorem ipsum</h2>
                 <div class="wrappedImageDiv">
