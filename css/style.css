@@ -58,10 +58,6 @@ footer {
     font-size: 0.8rem;
 }
 
-.hidden {
-    display: none;
-}
-
 #testArticles {
     margin-top: 100px;
 }
@@ -105,6 +101,13 @@ footer {
 .upperBottomText {
     display: flex;
     justify-content: space-between;
+}
+
+#articleInfo {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #testExplanation {
@@ -190,14 +193,14 @@ button:hover {
     cursor: pointer;
 }
 
-#testExplanation{
+#testExplanation {
     margin-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#startTestMixed{
+#startTestMixed {
     margin-top: 75px;
     width: 250px;
     height: 75px;
@@ -207,7 +210,12 @@ button:hover {
     transition: 0.5s;
     border: none;
 }
-#startTestMixed:hover{
+
+#startTestMixed:hover {
     transform: scale(1.5);
     cursor: pointer;
+}
+
+.hidden {
+    display: none;
 }
