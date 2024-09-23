@@ -21,16 +21,19 @@
         <div id="testExplanation" class="">
             <div>
                 <h2>
-                    In this test you will be choosing if an article is fake news, or real news.
+                    In this test you will be choosing if a newsarticle is real or fake.
                 </h2>
                 <p>
-                    We have chosen a few articles written with factually correct information and a few articles with incorrect information. It is up to you to find out if the article is real or fake news.
+                    We have chosen a few articles written with factually correct information and a few articles with incorrect information.
+                    It is up to you to find out if the newsarticle is real or fake.
                 </p>
                 <h2>
-                    In deze test moet u kiezen of een artikel nepnieuws of echt nieuws is.
+                    In deze test moet u kiezen of een nieuwsartikel echt of nep is.
                 </h2>
                 <p>
-                    Wij hebben een paar artikelen uitgekozen met feitelijke informatie en een paar artikelen met onjuiste informatie. Het is aan u om uit te zoeken of het artikel echt- of nepniews is
+                    Wij hebben een paar artikelen uitgekozen met feitelijke informatie en een paar artikelen met onjuiste informatie.
+                    Het is aan u om uit te zoeken of het nieuwsartikel echt of nep is.
+                    Nepnieuws kan u aangeven met de knop 'Fake news' en echt news met de knop 'Real news'
                 </p>
             </div>
             <button id="startTestMixed"><strong>Start test</strong></button>
