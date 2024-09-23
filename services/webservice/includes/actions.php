@@ -172,7 +172,7 @@
                 "name" => "Haarlem Introduceert Innovatief Afvalrecyclingsprogramma",
                 "image" => "images/artikel_16.jpg",
                 "link" => "ChatGPT",
-                "status" => true,
+                "status" => false,
                 "text" => "<p>De gemeente Haarlem heeft vandaag een nieuw afvalrecyclingsprogramma aangekondigd dat op 1 oktober van start gaat. Dit programma richt zich op het vergroten van de recyclingpercentages door gescheiden inzameling van plastic, papier en organisch afval. Bewoners ontvangen speciale containers en informatie over hoe ze hun afval kunnen scheiden.</p>
                             <p>Wethouder duurzaamheid, Lisa van der Meer, zegt: \"We hopen ons recyclingpercentage te verhogen van 30% naar 50% binnen twee jaar.\" Lokale scholen zullen betrokken worden bij educatieve workshops om jongeren bewust te maken van recycling.</p>
                             <p>Critici wijzen op mogelijke uitdagingen. Milieuactivist Mark Jansen merkt op: \"Het is belangrijk dat de gemeente niet alleen een nieuw systeem invoert, maar ook zorgt voor de nodige ondersteuning en informatie voor de inwoners.\"</p>
@@ -180,35 +180,49 @@
             ],
             [
                 "id" => 17,
-                "name" => "title",
+                "name" => "Maker van Leerdammer-gatenkaas mag melkprijs niet zomaar zelf bepalen",
                 "image" => "images/artikel_17.jpg",
-                "link" => "source",
+                "link" => "https://www.nu.nl/economie/6329204/maker-van-leerdammer-gatenkaas-mag-melkprijs-niet-zomaar-zelf-bepalen.html",
                 "status" => true,
-                "text" => "article"
+                "text" => "<p>Royal Lactalis Leerdammer, bekend van de Leerdammer-gatenkaas, kan boetes tot ruim 1 miljoen euro krijgen als het bedrijf zijn prijsbeleid niet aanpast. Volgens toezichthouder ACM bepaalt de kaasmaker eenzijdig en ontransparant de prijs voor de melk van boeren, terwijl dat niet mag.</p>
+                            <p>De toezichthouder is in actie gekomen na klachten van een collectief van zo'n vierhonderd kleine boeren die hun melk exclusief aan Leerdammer leveren. Volgens de boeren wijzigt het bedrijf de melkprijs maandelijks, zonder overleg en zonder dat duidelijk is hoe die prijs tot stand komt.</p>
+                            <p>Dat is in strijd met de Wet oneerlijke handelspraktijken landbouw- en voedselvoorzieningsketen (Wet OHP Landbouw), die sinds twee jaar bestaat. \"Dit is handhaving daarvan\", licht een woordvoerder van de ACM toe. \"Voor de boeren moet duidelijk zijn hoe de melkprijs tot stand komt. En de manier waarop dat gebeurt, dient in overleg tussen de partijen te gebeuren.\"</p>
+                            <p>Leerdammer mag volgens de relatief nieuwe wet niet eenzijdig de voorwaarden wijzigen. \"De ACM verplicht Lactalis Leerdammer om uiterlijk drie maanden na bekendmaking van dit besluit de leveringsvoorwaarden in lijn te brengen met de Wet OHP Landbouw.\"</p>
+                            <p>Leerdammer laat weten met de boeren in gesprek te gaan en inzichtelijker te maken hoe de prijs tot stand komt. \"Om zorgvuldig een transparanter melkprijssysteem te ontwikkelen, heeft Royal Lactalis Leerdammer meer tijd nodig dan de drie maanden die de ACM hiervoor geeft\", benadrukt het bedrijf.</p>
+                            <p>Bovendien twijfelt Leerdammer aan ACM's interpretatie van de wet. \"Royal Lactalis Leerdammer gaat daarom in beroep.\"</p>"
+
             ],
             [
                 "id" => 18,
-                "name" => "title",
+                "name" => "Minister Madlener: ‘Hersenletsel is gewoon hoofdpijn die wat langer aanhoudt’",
                 "image" => "images/artikel_18.jpg",
-                "link" => "source",
-                "status" => true,
-                "text" => "article"
+                "link" => "https://speld.nl/2024/08/30/minister-madlener-hersenletsel-is-gewoon-hoofdpijn-die-wat-langer-aanhoudt/",
+                "status" => false,
+                "text" => "<p>Minister Madlener wil geen verbod op fatbikes. “Mensen die ervoor kiezen op zo’n fiets met dikke banden te rijden kunnen prima zelf beslissen of ze hersenletsel willen of niet. En hersenletsel is ook maar gewoon hoofdpijn die wat langer aanhoudt.”</p>
+                            <p>De nog verse PVV-minister van Infrastructuur en Waterstaat zegt dit in reactie op oproepen van artsen die waarschuwen voor de vaak jonge slachtoffers die op de eerste hulp belanden.</p>
+                            <p>“Het gaat om een stukje nuance. Een inwendige bloeding is ook maar een orgaan met een barst. Uitval van ledematen is vaak ook maar een tijdelijke neurologische aandoening die soms permanent blijkt te zijn. Dat moeten we ons wel goed voor ogen blijven houden voor we maatregelen invoeren die de vrijheid zo drastisch inperken. En wie ben ik, wie zijn wij als kabinet om iedereen van 14 die op een fatbike 50 kilometer per uur rijdt dan straks te verplichten een helm te dragen?”</p>"
             ],
             [
                 "id" => 19,
-                "name" => "title",
+                "name" => "Nederland onderzoekt invoering vierdaagse werkweek: productiviteit zou toenemen",
                 "image" => "images/artikel_19.jpg",
-                "link" => "source",
-                "status" => true,
-                "text" => "article"
+                "link" => "ChatGPT",
+                "status" => false,
+                "text" => "<p>De Nederlandse regering bekijkt de mogelijkheid om de werkweek in te korten naar vier dagen. Volgens het Ministerie van Sociale Zaken zouden werknemers hierdoor meer rust krijgen, wat de productiviteit zou verhogen. Een proef bij bedrijven zoals Philips en Rabobank laat al positieve resultaten zien, met een daling van 20% in ziekteverzuim en een toename van de productiviteit met 15%.</p>
+                            <p>De vakbonden FNV en CNV zijn enthousiast en wijzen op een betere werk-privébalans. “Werknemers zijn bereid om eventueel een lager salaris te accepteren als ze een extra vrije dag krijgen,” aldus FNV-woordvoerder Marleen van der Steen. Uit onderzoek blijkt dat bijna 70% van de werknemers voorstander is van de vierdaagse werkweek.</p>
+                            <p>Niet iedereen is overtuigd. Werkgeversorganisaties zoals VNO-NCW waarschuwen voor hogere kosten en problemen in sectoren zoals de zorg en het onderwijs. “De werkdruk is al hoog, en extra personeel aannemen wordt te duur voor veel bedrijven,” zegt voorzitter Ingrid Thijssen.</p>
+                            <p>Het kabinet neemt naar verwachting in 2025 een besluit over het al dan niet invoeren van de vierdaagse werkweek, na evaluatie van verdere pilotprojecten.</p>"
             ],
             [
                 "id" => 20,
-                "name" => "title20",
+                "name" => "Amsterdam overweegt toeristen te belasten voor fietsen door de stad",
                 "image" => "images/artikel_20.jpg",
-                "link" => "source",
-                "status" => true,
-                "text" => "article"
+                "link" => "ChatGPT",
+                "status" => false,
+                "text" => "<p>De gemeente Amsterdam overweegt een nieuwe belastingmaatregel in te voeren die gericht is op toeristen die een fiets huren om de stad te verkennen. Het voorstel, dat momenteel in de gemeenteraad wordt besproken, zou toeristen verplichten om een \"fietsbelasting\" van €5 per dag te betalen. Volgens de gemeente is de maatregel bedoeld om de overvolle fietspaden te ontlasten en de druk op de infrastructuur te verminderen.</p>
+                            <p>Wethouder Verkeer en Vervoer, Pieter de Bruin, stelt dat toeristen vaak onervaren zijn op de fiets, wat tot gevaarlijke situaties leidt in het drukke stadsverkeer. \"We willen de verkeersveiligheid verbeteren, en deze belasting zou toeristen stimuleren om vaker te kiezen voor alternatieven zoals wandelen of het openbaar vervoer,\" aldus de Bruin. De inkomsten uit de belasting zouden bovendien gebruikt worden voor de aanleg van extra fietspaden buiten het centrum.</p>
+                            <p>Fietsverhuurbedrijven reageren echter kritisch. Zij vrezen dat de maatregel hun inkomsten aanzienlijk zal schaden. \"De fiets is juist de ideale manier om Amsterdam te ontdekken,\" zegt Jeroen Bakker van Rent-a-Bike. \"Met deze belasting jaag je toeristen weg en ondermijn je het imago van de stad als fietsvriendelijke bestemming.\"</p>
+                            <p>De gemeenteraad beslist naar verwachting later dit jaar of de belasting daadwerkelijk wordt ingevoerd.</p>"
             ],
 
             //volledig Engelse artikelen
