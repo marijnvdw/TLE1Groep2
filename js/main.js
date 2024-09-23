@@ -53,7 +53,14 @@ function elementLoader() {
 
     continueToNextArticle = document.getElementById("continueToNextArticle")
     continueToNextArticle.addEventListener('click', function () {
-        loadNextArticle()
+        //check if article is the last article
+        if (articleTestNumber < 10) {
+            loadNextArticle()
+        } else {
+            //laat de laatste pagina met de score zien
+            console.log('this is the last article')
+            endTest()
+        }
     });
 
     returnHome = document.getElementById("returnHome")
@@ -134,32 +141,27 @@ function nextArticleButtonPress(choice) {
         showCorrect = document.getElementById("showCorrect")
         showCorrect.innerHTML = 'Wrong, this article was written by:'
     }
-    //check if article is the last article
-    if (articleTestNumber < 9) {
-        //enter info text
-        articleType = document.getElementById("articleType")
-        sourceLink = document.getElementById("sourceLink")
 
-        if (articlesData[articleNumber]["status"] === true) {
-            articleType.innerHTML = 'Human'
-            sourceLink.innerHTML = `Source: ${articlesData[articleNumber]["link"]}`
-        } else {
-            articleType.innerHTML = 'AI'
-            sourceLink.innerHTML = 'Source: ChatGPT'
-        }
+    //enter info text
+    articleType = document.getElementById("articleType")
+    sourceLink = document.getElementById("sourceLink")
 
-        //show the info text
-        articleInfo = document.getElementById("articleInfo")
-        articleInfo.classList.remove("hidden")
-
-        //go to the next article
-        articleNumber += 1
-        articleTestNumber += 1
+    if (articlesData[articleNumber]["status"] === true) {
+        articleType.innerHTML = 'Human'
+        sourceLink.innerHTML = `Source: ${articlesData[articleNumber]["link"]}`
     } else {
-        //laat de laatste pagina met de score zien
-        console.log('this is the last article')
-        endTest()
+        articleType.innerHTML = 'AI'
+        sourceLink.innerHTML = 'Source: ChatGPT'
     }
+
+    //show the info text
+    articleInfo = document.getElementById("articleInfo")
+    articleInfo.classList.remove("hidden")
+
+    //go to the next article
+    articleNumber += 1
+    articleTestNumber += 1
+
 
     console.log(correctGuesses)
 }
