@@ -51,6 +51,11 @@ function elementLoader() {
         nextArticleButtonPress(true);
     });
 
+    continueToNextArticle = document.getElementById("continueToNextArticle")
+    continueToNextArticle.addEventListener('click', function () {
+        loadNextArticle()
+    });
+
     returnHome = document.getElementById("returnHome")
     returnHome.addEventListener('click', function () {
         location.reload()
@@ -84,6 +89,9 @@ function loadFirstArticle() {
 }
 
 function loadNextArticle() {
+    articleInfo = document.getElementById("articleInfo")
+    articleInfo.classList.add("hidden")
+
     let articleData = articlesData[articleNumber]
 
     articleTitle = document.getElementById("articleTitle")
@@ -103,17 +111,41 @@ function loadNextArticle() {
 }
 
 function nextArticleButtonPress(choice) {
+    colorText = document.getElementById("colorText")
+
     //check if the answer is correct and add a point to the score if it is correct
     if (articlesData[articleNumber]["status"] === choice) {
         //answer is correct, add point to score
         correctGuesses += 1
+
+        //make info text green if it was correct
+        colorText.classList.remove("redText")
+        colorText.classList.add("greentext")
+    } else {
+        colorText.classList.remove("greentext")
+        colorText.classList.add("redText")
     }
     //check if article is the last article
     if (articleTestNumber < 9) {
+        //enter info text
+        articleType = document.getElementById("articleType")
+        sourceLink = document.getElementById("sourceLink")
+
+        if (articlesData[articleNumber]["status"] === true) {
+            articleType.innerHTML = 'Human'
+            sourceLink.innerHTML = `Source: ${articlesData[articleNumber]["link"]}`
+        } else {
+            articleType.innerHTML = 'AI'
+            sourceLink.innerHTML = 'Source: ChatGPT'
+        }
+
+        //show the info text
+        articleInfo = document.getElementById("articleInfo")
+        articleInfo.classList.remove("hidden")
+
         //go to the next article
         articleNumber += 1
         articleTestNumber += 1
-        loadNextArticle()
     } else {
         //laat de laatste pagina met de score zien
         console.log('this is the last article')
@@ -130,7 +162,7 @@ function startTest(language) {
     }
 
     testExplanation = document.getElementById("testExplanation")
-    testExplanation.remove(); 
+    testExplanation.remove();
 
     testArticles = document.getElementById("testArticles")
     testArticles.classList.remove("hidden")

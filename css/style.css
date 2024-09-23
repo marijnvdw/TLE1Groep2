@@ -108,9 +108,34 @@ main {
 }
 
 #articleInfo {
+    width: 100vw;
+    height: 100vh;
     position: fixed;
+    top: 0%;
+    left: 0%;
+    background-color: #333;
+    opacity: 0.9;
+}
+
+.alignMiddle {
+    position: absolute;
     top: 50%;
     left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+#articleType {
+    font-weight: bolder;
+    font-size: 13rem;
+}
+
+.greenText {
+    color: greenyellow;
+}
+
+.redText {
+    color: red;
 }
 
 #testExplanation {

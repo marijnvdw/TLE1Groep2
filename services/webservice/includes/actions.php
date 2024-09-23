@@ -56,7 +56,7 @@
             ],
             [
                 "id" => 7,
-                "name" => "Wetenschappers Ontdekken Bomen Die Zuurstof Absorberen in Plaats van Produceren",
+                "name" => "Wetenschappers ontdekken bomen die zuurstof absorberen in plaats van produceren",
                 "image" => "images/artikel_7.jpg",
                 "link" => "",
                 "status" => false,
@@ -66,7 +66,7 @@
                 "id" => 8,
                 "name" => "Donald Trump gets his mug shot taken",
                 "image" => "images/artikel_8.jpg",
-                "link" => "",
+                "link" => "https://www.voanews.com/a/with-the-click-of-a-camera-donald-trump-mug-shot-captures-an-american-moment-/7241353.html",
                 "status" => true,
                 "text" => "<p>A camera clicks. In a fraction of a second, the shutter opens and then closes, freezing forever the image in front of it.</p>
                            <p>When the camera shutter blinked inside an Atlanta jail on Thursday, it both created and documented a tiny inflection point in American life. Captured for posterity, 

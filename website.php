@@ -47,14 +47,18 @@
                 <button id="chooseAI">AI</button>
                 <button id="chooseHuman">Human</button>
             </div>
-            <div id="articleInfo" class="">
-                <div id="articleType">
-                    this article was made by ai
-                </div>
-                <div id="sourceLink">
+            <div id="articleInfo" class="hidden">
+                <div class="alignMiddle">
+                    <div id="colorText" class="redText">
+                        <div id="articleType">
+                            AI
+                        </div>
+                        <div id="sourceLink">
 
+                        </div>
+                    </div>
+                    <button id="continueToNextArticle">Continue</button>
                 </div>
-                <button id="continueToNextArticle">Continue</button>
             </div>
         </div>
         <div id="testResults" class="hidden">
