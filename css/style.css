@@ -58,7 +58,7 @@ footer {
     font-size: 0.8rem;
 }
 
-main{
+main {
     margin-bottom: 20px;
 }
 
@@ -109,9 +109,8 @@ main{
 
 #articleInfo {
     position: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    top: 50%;
+    left: 50%;
 }
 
 #testExplanation {
