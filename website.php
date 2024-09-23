@@ -162,7 +162,7 @@
             </div>
         </div>
         <div id="testResults" class="hidden">
-            <p>You scored 6/10</p>
+            <div id="resultsScore">You scored 6/10</div>
             <button>Return to home</button>
         </div>
     </main>
