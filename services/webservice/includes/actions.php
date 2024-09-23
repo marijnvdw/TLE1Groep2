@@ -26,7 +26,7 @@
                 "id" => 3,
                 "name" => "New Planet Discovered",
                 "image" => "images/artikel_3.jpg",
-                "link" => "",
+                "link" => "ChatGPT",
                 "status" => false,
                 "text" => "<p>Scientists have made an astonishing announcement this week: the discovery of a new planet within our solar system. Named \"Nubira,\" this previously unknown planet orbits just beyond Neptune and was identified using cutting-edge telescope technology.</p><p>Nubira is estimated to be about the size of Mars, but what makes it truly remarkable is the presence of a thin atmosphere that contains traces of oxygen, which is uncommon for planets in this distant region. Even more intriguing, there is strong evidence to suggest that liquid water flows on its surface, hidden beneath icy layers. This has ignited speculation about the possibility of microbial life or even more complex organisms.</p><p>The discovery of Nubira challenges many long-standing theories about the formation and composition of our solar system, as no one expected to find another planet so far from the Sun. The scientific community is eagerly preparing for a series of future missions, potentially sending robotic probes to explore Nubira’s unique landscape. If water is confirmed, Nubira could become a prime candidate in the search for extraterrestrial life.</p>"
             ],
@@ -34,7 +34,7 @@
                 "id" => 4,
                 "name" => "Banned Technology: Telepathic Communication Devices",
                 "image" => "images/artikel_4.jpg",
-                "link" => "",
+                "link" => "ChatGPT",
                 "status" => false,
                 "text" => "<p>In a breakthrough that sounds like science fiction, a secret U.S. military project has reportedly developed a device that allows for telepathic communication. Dubbed \"MindLink,\" this device translates brainwaves into speech, enabling people to communicate thoughts without uttering a word.</p><p>The technology works by capturing neural signals and converting them into digital data, which is then transmitted to another person’s device, allowing for silent, instantaneous conversations.</p><p>Despite its potential, MindLink has raised significant ethical concerns. Critics argue that the ability to transmit thoughts directly could lead to violations of privacy and even involuntary mind control. Although the U.S. government has denied the existence of the project, leaked documents have fueled speculation.</p>"
             ],
@@ -58,7 +58,7 @@
                 "id" => 7,
                 "name" => "Wetenschappers ontdekken bomen die zuurstof absorberen in plaats van produceren",
                 "image" => "images/artikel_7.jpg",
-                "link" => "",
+                "link" => "ChatGPT",
                 "status" => false,
                 "text" => "<p>In een onverwachte ontdekking hebben botanici aan de Universiteit van Wageningen een boomsoort geïdentificeerd die geen zuurstof produceert, maar het juist absorbeert. Deze bomen, gevonden in een afgelegen deel van de Amazone, gedragen zich tegengesteld aan wat we van planten gewend zijn. In plaats van fotosynthese, waarbij planten koolstofdioxide opnemen en zuurstof afgeven, nemen deze bomen zuurstof uit de lucht en stoten ze stikstof uit.</p><p>Wetenschappers zijn bezorgd dat als deze bomen zich verspreiden naar andere delen van de wereld, ze mogelijk een bedreiging vormen voor het ecologische evenwicht.</p>"
             ],
@@ -102,7 +102,7 @@
                 "id" => 10,
                 "name" => "Rupert Grint Diagnosed with Bone Cancer: A Brave Fight Ahead",
                 "image" => "images/artikel_10.jpg",
-                "link" => "",
+                "link" => "ChatGPT",
                 "status" => false,
                 "text" => "<p>In a shocking announcement, it has been revealed that actor Rupert Grint, beloved for his role as Ron Weasley in the Harry Potter series, has been diagnosed with bone cancer. 
                            The 35-year-old actor, who has maintained a relatively private life in recent years, shared the heartbreaking news through a statement issued by his publicist earlier this week.</p>

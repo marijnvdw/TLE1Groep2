@@ -12,7 +12,7 @@
 <body>
     <header>
         <i class="fa-solid fa-bars nav-button" id="toggleMenu"></i>
-        <h1>Is this article made by AI or by a Human?</h1>
+        <h1>Is this article fake or real?</h1>
     </header>
 
     <?php require_once('nav.html'); ?>
@@ -21,8 +21,17 @@
         <div id="testExplanation" class="">
             <div>
                 <h2>
-                    In this test you will be choosing if an article has been written by artificial intelligence or a human.
+                    In this test you will be choosing if an article is fake news, or real news.
                 </h2>
+                <p>
+                    We have chosen a few articles written with factually correct information and a few articles with incorrect information. It is up to you to find out if the article is real or fake news.
+                </p>
+                <h2>
+                    In deze test moet u kiezen of een artikel nepnieuws of echt nieuws is.
+                </h2>
+                <p>
+                    Wij hebben een paar artikelen uitgekozen met feitelijke informatie en een paar artikelen met onjuiste informatie. Het is aan u om uit te zoeken of het artikel echt- of nepniews is
+                </p>
             </div>
             <button id="startTestMixed"><strong>Start test</strong></button>
         </div>
@@ -44,8 +53,8 @@
                 <div class="bottomTextCentered">This is:</div>
             </div>
             <div class="bottomButtons">
-                <button id="chooseAI">AI</button>
-                <button id="chooseHuman">Human</button>
+                <button id="chooseAI">Fake news</button>
+                <button id="chooseHuman">Real news</button>
             </div>
             <div id="articleInfo" class="hidden">
                 <div class="alignMiddle">
