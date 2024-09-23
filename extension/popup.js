@@ -1,8 +1,17 @@
+document.addEventListener("DOMContentLoaded", function () {
+
+    chrome.tabs.query({ active: true, currentWindow: true }, tabs => {
+        
+        let url = tabs[0].url;
+        console.log(url);
+    });
+
+
 let articlePercentage = 40
 let sourcePercentage = 60
 
 
-document.addEventListener("DOMContentLoaded", function () {
+
 document.getElementById("clickMe").addEventListener("click", function () {
     
     const circles = document.querySelectorAll(".circle");
@@ -61,5 +70,7 @@ function percentageChanger(params) {
 
 
 percentageChanger()
+
+
 
 });
