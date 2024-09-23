@@ -131,7 +131,7 @@ function nextArticleButtonPress(choice) {
 
         //tell the user that it was correct
         showCorrect = document.getElementById("showCorrect")
-        showCorrect.innerHTML = 'Correct, this article was written by:'
+        showCorrect.innerHTML = 'Correct, this article was:'
     } else {
         //make info text red if it was incorrect
         colorText.classList.remove("greenText")
@@ -139,7 +139,7 @@ function nextArticleButtonPress(choice) {
 
         //tell the user that it was incorrect
         showCorrect = document.getElementById("showCorrect")
-        showCorrect.innerHTML = 'Wrong, this article was written by:'
+        showCorrect.innerHTML = 'Wrong, this article was:'
     }
 
     //enter info text
@@ -147,11 +147,11 @@ function nextArticleButtonPress(choice) {
     sourceLink = document.getElementById("sourceLink")
 
     if (articlesData[articleNumber]["status"] === true) {
-        articleType.innerHTML = 'Human'
+        articleType.innerHTML = 'Real'
         sourceLink.innerHTML = `Source: ${articlesData[articleNumber]["link"]}`
     } else {
-        articleType.innerHTML = 'AI'
-        sourceLink.innerHTML = 'Source: ChatGPT'
+        articleType.innerHTML = 'Fake'
+        sourceLink.innerHTML = `Source: ${articlesData[articleNumber]["link"]}`
     }
 
     //show the info text
