@@ -47,7 +47,7 @@
                 <button id="chooseAI">AI</button>
                 <button id="chooseHuman">Human</button>
             </div>
-            <div id="articleInfo">
+            <div id="articleInfo" class="hidden">
                 <div id="articleType">
                     this article was made by ai
                 </div>
