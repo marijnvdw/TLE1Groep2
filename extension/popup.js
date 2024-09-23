@@ -1,5 +1,5 @@
-let articlePercentage = 80
-let sourcePercentage = 90
+let articlePercentage = 40
+let sourcePercentage = 60
 
 
 document.addEventListener("DOMContentLoaded", function () {
