@@ -66,6 +66,7 @@
         </div>
         <div id="testResults" class="hidden">
             <div id="resultsScore">You scored 6/10</div>
+            <div>You could download our extension if you didn't score 10/10. Our extension will help you with recognizing fake news</div>
             <button id="returnHome">Return to home</button>
         </div>
     </main>
