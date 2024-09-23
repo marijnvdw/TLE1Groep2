@@ -68,7 +68,7 @@ footer {
 #article {
     border: solid, 2px;
     width: 70vw;
-    height: auto;
+    min-height: 50vh;
     padding: 10px;
     margin: auto;
     text-align: justify;
