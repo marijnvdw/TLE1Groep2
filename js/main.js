@@ -130,7 +130,7 @@ function startTest(language) {
     }
 
     testExplanation = document.getElementById("testExplanation")
-    testExplanation.classList.add("hidden")
+    testExplanation.remove(); 
 
     testArticles = document.getElementById("testArticles")
     testArticles.classList.remove("hidden")

@@ -58,6 +58,9 @@ footer {
     font-size: 0.8rem;
 }
 
+main{
+    margin-bottom: 20px;
+}
 .hidden {
     display: none;
 }
@@ -192,9 +195,6 @@ button:hover {
 
 #testExplanation{
     margin-top: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 #startTestMixed{
