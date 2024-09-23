@@ -121,9 +121,18 @@ function nextArticleButtonPress(choice) {
         //make info text green if it was correct
         colorText.classList.remove("redText")
         colorText.classList.add("greenText")
+
+        //tell the user that it was correct
+        showCorrect = document.getElementById("showCorrect")
+        showCorrect.innerHTML = 'Correct, this article was written by:'
     } else {
+        //make info text red if it was incorrect
         colorText.classList.remove("greenText")
         colorText.classList.add("redText")
+
+        //tell the user that it was incorrect
+        showCorrect = document.getElementById("showCorrect")
+        showCorrect.innerHTML = 'Wrong, this article was written by:'
     }
     //check if article is the last article
     if (articleTestNumber < 9) {

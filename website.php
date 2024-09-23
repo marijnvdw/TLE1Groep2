@@ -50,6 +50,9 @@
             <div id="articleInfo" class="hidden">
                 <div class="alignMiddle">
                     <div id="colorText" class="redText">
+                        <div id="showCorrect">
+                            Correct, this article was written by:
+                        </div>
                         <div id="articleType">
                             AI
                         </div>

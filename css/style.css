@@ -125,9 +125,24 @@ main {
     transform: translate(-50%, -50%);
 }
 
+#showCorrect {
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+
 #articleType {
     font-weight: bolder;
     font-size: 13rem;
+}
+
+#sourceLink {
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+}
+
+#continueToNextArticle:hover {
+    background-color: #333;
 }
 
 .greenText {
