@@ -120,9 +120,9 @@ function nextArticleButtonPress(choice) {
 
         //make info text green if it was correct
         colorText.classList.remove("redText")
-        colorText.classList.add("greentext")
+        colorText.classList.add("greenText")
     } else {
-        colorText.classList.remove("greentext")
+        colorText.classList.remove("greenText")
         colorText.classList.add("redText")
     }
     //check if article is the last article
