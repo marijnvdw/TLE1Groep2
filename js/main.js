@@ -60,6 +60,7 @@ function jsonLoader(data) {
 
 function loadFirstArticle() {
     let articleData = articlesData[articleNumber]
+    // console.log(articleData['text'])
 
     articleTitle = document.getElementById("articleTitle")
     articleTitle.innerHTML = articleData['name']
