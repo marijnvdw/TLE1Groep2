@@ -108,13 +108,11 @@ button:hover {
     }
 }
 
-.circular-chart.orange .circle {
+/* .circular-chart .circle {
     stroke: #03890e;
-}
+} */
 
-.circular-chart.green .circle {
-    stroke: #4CC790;
-}
+
 
 .percentage {
     fill: #666;
