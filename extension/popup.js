@@ -33,6 +33,9 @@ function percentageChanger(params) {
         sourceCircle.style.stroke = 'green'
     }
 
+    let percentageInTheSourceCircle = document.getElementById("sourcePercentage")
+    percentageInTheSourceCircle.innerHTML = `${sourcePercentage}%`
+
 
     articleCircle = document.getElementById('article-circle')
     articleCircle.setAttribute("stroke-dasharray", `${articlePercentage}, 100`);
@@ -50,7 +53,8 @@ function percentageChanger(params) {
         articleCircle.style.stroke = 'green'
     }
     
-
+    let percentageInTheArticleCircle = document.getElementById("articlePercentage")
+    percentageInTheArticleCircle.innerHTML = `${articlePercentage}%`
 
     
 }
