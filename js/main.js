@@ -50,6 +50,11 @@ function elementLoader() {
     buttonHuman.addEventListener('click', function () {
         nextArticleButtonPress(true);
     });
+
+    returnHome = document.getElementById("returnHome")
+    returnHome.addEventListener('click', function () {
+        location.reload()
+    });
 }
 
 function jsonLoader(data) {

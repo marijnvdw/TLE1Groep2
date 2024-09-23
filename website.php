@@ -50,7 +50,7 @@
         </div>
         <div id="testResults" class="hidden">
             <div id="resultsScore">You scored 6/10</div>
-            <button>Return to home</button>
+            <button id="returnHome">Return to home</button>
         </div>
     </main>
 

@@ -69,7 +69,7 @@ footer {
 #article {
     border: solid, 2px;
     width: 70vw;
-    height: auto;
+    min-height: 50vh;
     padding: 10px;
     margin: auto;
     text-align: justify;
@@ -105,6 +105,14 @@ footer {
 .upperBottomText {
     display: flex;
     justify-content: space-between;
+}
+
+#testExplanation {
+    margin: 20vh;
+}
+
+#testResults {
+    margin: 20vh;
 }
 
 #questionCounter {
