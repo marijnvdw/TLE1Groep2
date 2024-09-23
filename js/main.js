@@ -9,7 +9,7 @@ let buttonHuman
 let articlesData
 //articleNumber wordt gebruikt om het artikel uit de database te halen.
 //articleTestNumber wordt gebruikt om het artikel aan te duiden dat momenteel op de pagina staat.
-let articleNumber = 0
+let articleNumber
 let articleTestNumber = 0
 
 let correctGuesses = 0
@@ -36,9 +36,17 @@ function elementLoader() {
     // testArticles = document.getElementById("testArticles")
     // testResults = document.getElementById("testResults")
 
+    startTestDutch = document.getElementById("startTestDutch")
+    startTestDutch.addEventListener('click', function () {
+        startTest('dutch')
+    });
     startTestMixed = document.getElementById("startTestMixed")
     startTestMixed.addEventListener('click', function () {
         startTest('mixed')
+    });
+    startTestEnglish = document.getElementById("startTestEnglish")
+    startTestEnglish.addEventListener('click', function () {
+        startTest('english')
     });
 
     buttonAI = document.getElementById("chooseAI")
@@ -72,27 +80,6 @@ function elementLoader() {
 function jsonLoader(data) {
     console.log(data)
     articlesData = data
-    loadFirstArticle()
-}
-
-function loadFirstArticle() {
-    let articleData = articlesData[articleNumber]
-    // console.log(articleData['text'])
-
-    articleTitle = document.getElementById("articleTitle")
-    articleTitle.innerHTML = articleData['name']
-
-    articleText = document.getElementById("articleText")
-    articleText.innerHTML = articleData['text']
-
-    articleImage = document.getElementById("articleImage")
-    articleImage.src = articleData['image']
-
-    questionCounter = document.getElementById("questionCounter")
-    questionCounter.innerHTML = `${articleTestNumber + 1}/10`
-
-    correctCounter = document.getElementById("correctCounter")
-    correctCounter.innerHTML = `Good answers: ${correctGuesses}/0`
 }
 
 function loadNextArticle() {
@@ -170,7 +157,19 @@ function startTest(language) {
     if (language === 'mixed') {
         articleNumber = 0
         console.log('start test in mixed languages')
+    } else {
+        if (language === 'dutch') {
+            articleNumber = 10
+            console.log('start test in dutch language')
+        } else {
+            if (language === 'english') {
+                articleNumber = 20
+                console.log('start test in english language')
+            }
+        }
     }
+
+    loadNextArticle()
 
     testExplanation = document.getElementById("testExplanation")
     testExplanation.remove();
