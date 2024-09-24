@@ -118,12 +118,17 @@
             //volledig Nederlandse artikelen (ook nepnieuws zonder ai)
             [
                 "id" => 11,
-                "name" => "Gorilla Bokito (27) tijdens narcose doodgegaan in Diergaarde Blijdorp",
-                "image" => "images/artikel_2.jpg",
-                "link" => "https://nos.nl/artikel/2470274-gorilla-bokito-27-tijdens-narcose-doodgegaan-in-diergaarde-blijdorp",
+                "name" => "Straatje erbij levert minder huizen op dan gedacht",
+                "image" => "images/artikel_11.jpg",
+                "link" => "https://nos.nl/artikel/2538323-straatje-erbij-levert-minder-huizen-op-dan-gedacht",
                 "status" => true,
-                "text" => "<p>Gorilla Bokito uit Diergaarde Blijdorp in Rotterdam is op 27-jarige leeftijd doodgegaan. Dat gebeurde gisteren, tijdens een narcose. Het dier was sinds zondag niet in orde.</p>
-                            <p>Blijdorp onderzocht maandag de mest van de gorilla om te zien wat er aan de hand was. Ook werd Bokito extra geobserveerd. Gisteren was de situatie nog niet verbeterd. De dierentuin heeft het dier onder narcose nog vocht toegediend, maar het overleed tijdens de narcose. Naar de oorzaak van het onverwachte overlijden wordt onderzoek gedaan.</p><p>Volgens Blijdorp is de hele gorillagroep aangeslagen door de gebeurtenis. Onder medewerkers van de dierentuin, en vooral onder de verzorgers van de apen, heerst verslagenheid. In het wild worden gorilla's 35 tot 40 jaar oud.</p>"
+                "text" => "<p>Het plan om bij steden en dorpen een straatje bij te bouwen, levert veel minder huizen op dan eerder gedacht. Volgens een berekening van het Planbureau voor de Leefomgeving levert het plan maximaal 95.000 woningen op en waarschijnlijk in de praktijk nog wat minder.</p>
+                            <p>Bouwers noemden het plan eerder dé oplossing voor het woningtekort, maar volgens dit rapport helpt het maar een beetje. Er zijn een miljoen huizen nodig.</p>
+                            <p>\"Wij gaan uit van een straatje van maximaal vijftig woningen, en daarbij hebben we gekeken naar plekken die niet in een natuurgebied liggen\", zegt Marko Hekkert, directeur voor het Planbureau voor de Leefomgeving.</p>
+                            <p>\"De potentie is een stuk kleiner dan gedacht, maar voor sommige provincies is het een goede oplossing, bijvoorbeeld voor provincies zoals Groningen, Friesland, Drenthe en Zeeland\", zegt Hekkert. Dat zijn niet de regio's waar de meeste vraag is naar woningen.</p>
+                            <p>Het Economisch Instituut voor de Bouw heeft kritiek op de berekeningen en zegt dat de potentie van het plan veel groter is. Daar is de directeur van het Planbureau voor de Leefomgeving het niet mee eens.</p>
+                            <p>\"We hebben gekeken naar het effect als je één straat erbij bouwt. Je kan veel meer erbij bouwen, maar dan gaat het ten koste van weilanden en heb je het over een wijkje erbij bouwen. Dan kan je naar een miljoen huizen toe, maar dan heb je het niet meer over straatje erbij.\"</p>
+                            <p>Voor het kabinet is het plan een van de manieren om het woningtekort op te lossen. Het doel is om 100.000 woningen per jaar te bouwen. Er wordt snel gezocht naar extra bouwlocaties en er worden nieuwe grootschalige woningbouwlocaties aangewezen.</p>"
             ],
             [
                 "id" => 12,
@@ -161,11 +166,13 @@
             ],
             [
                 "id" => 15,
-                "name" => "Wetenschappers ontdekken bomen die zuurstof absorberen in plaats van produceren",
-                "image" => "images/artikel_7.jpg",
+                "name" => "Onderzoek: chipsconsumptie bevordert concentratie en geheugen bij studenten",
+                "image" => "images/artikel_15.jpg",
                 "link" => "ChatGPT",
                 "status" => false,
-                "text" => "<p>In een onverwachte ontdekking hebben botanici aan de Universiteit van Wageningen een boomsoort geïdentificeerd die geen zuurstof produceert, maar het juist absorbeert. Deze bomen, gevonden in een afgelegen deel van de Amazone, gedragen zich tegengesteld aan wat we van planten gewend zijn. In plaats van fotosynthese, waarbij planten koolstofdioxide opnemen en zuurstof afgeven, nemen deze bomen zuurstof uit de lucht en stoten ze stikstof uit.</p><p>Wetenschappers zijn bezorgd dat als deze bomen zich verspreiden naar andere delen van de wereld, ze mogelijk een bedreiging vormen voor het ecologische evenwicht.</p>"
+                "text" => "<p>Utrecht – Een recent onderzoek van de Universiteit Utrecht suggereert dat het eten van chips tijdens het studeren positieve effecten kan hebben op de concentratie en het geheugen. In een studie onder 300 studenten werd vastgesteld dat degenen die regelmatig chips aten tijdens het leren hun tentamens gemiddeld 12% beter maakten dan degenen die geen snacks consumeerden. De onderzoekers wijzen op een combinatie van zout en vetten die zorgen voor een snelle energieboost en een verbeterde focus.</p>
+                            <p>Professor Erik van der Hoek, die het onderzoek leidde, is enthousiast over de bevindingen. \"Dit zou wel eens de nieuwe studiehack kunnen worden voor studenten,\" aldus Van der Hoek. \"We weten al langer dat kleine snacks je alert kunnen houden, maar we waren verrast om te zien hoe effectief chips hierin zijn.\" Hij geeft wel aan dat overmatige consumptie negatieve gezondheidsgevolgen kan hebben, maar bij gematigde inname zouden de voordelen duidelijk opwegen tegen de nadelen.</p>
+                            <p>Niet iedereen is overtuigd. Voedingsdeskundigen waarschuwen voor de gevolgen van het normaliseren van ongezonde snacks in studieroutines. \"Het is zorgwekkend dat zo’n bericht studenten aanmoedigt om ongezond te eten,\" zegt Diëtiste Annemarie Jansen. \"Er zijn gezondere opties die net zo effectief kunnen zijn, zoals noten of fruit.\" Desondanks overweegt de universiteit de resultaten van het onderzoek te delen met studieverenigingen om studenten bewust te maken van de mogelijke voordelen.</p>"
             ],
             [
                 "id" => 16,
@@ -228,8 +235,83 @@
             //volledig Engelse artikelen
             [
                 "id" => 21,
-                "name" => "title21",
-                "image" => "images/artikel_x.jpg",
+                "name" => "Scientists Claim New Pill Could Extend Human Life by 20 Years",
+                "image" => "images/artikel_21.jpg",
+                "link" => "ChatGPT",
+                "status" => false,
+                "text" => "<p>A group of researchers at Oxford University has claimed to have developed a pill that could potentially extend human life by up to 20 years. The pill, which is currently undergoing clinical trials, targets the ageing process at a cellular level by repairing damaged DNA and boosting the body’s natural ability to regenerate. The scientists behind the breakthrough believe it could revolutionise healthcare and significantly increase life expectancy.</p>
+                            <p>Lead researcher Dr. Sarah Bennett explained that the pill works by stimulating the production of enzymes responsible for repairing telomeres, the protective caps on the ends of chromosomes that shorten as we age. \"Our research shows that by preserving telomere length, we can not only slow down the ageing process but, in some cases, reverse some of the physical signs of ageing,\" said Dr. Bennett. Early trials in mice have shown promising results, with test subjects living up to 30% longer than expected.</p>
+                            <p>Despite the excitement surrounding the discovery, experts warn that more research is needed to ensure the safety and efficacy of the pill in humans. Critics, such as Professor Mark Anderson from King’s College London, argue that extending human life comes with significant ethical and social challenges. \"If people live longer, we must consider the impact on the economy, pensions, and even the environment,\" said Anderson. \"It raises the question of whether society is ready for such a profound shift in life expectancy.\"</p>
+                            <p>The Oxford team plans to begin large-scale human trials within the next two years. If successful, the pill could be available to the public within a decade. However, some caution that the cost of the treatment may make it accessible only to the wealthy, raising concerns about inequality in healthcare.</p>"
+            ],
+            [
+                "id" => 22,
+                "name" => "title",
+                "image" => "images/artikel_22.jpg",
+                "link" => "source",
+                "status" => true,
+                "text" => "article"
+            ],
+            [
+                "id" => 23,
+                "name" => "title",
+                "image" => "images/artikel_23.jpg",
+                "link" => "source",
+                "status" => true,
+                "text" => "article"
+            ],
+            [
+                "id" => 24,
+                "name" => "title",
+                "image" => "images/artikel_24.jpg",
+                "link" => "source",
+                "status" => true,
+                "text" => "article"
+            ],
+            [
+                "id" => 25,
+                "name" => "title",
+                "image" => "images/artikel_25.jpg",
+                "link" => "source",
+                "status" => true,
+                "text" => "article"
+            ],
+            [
+                "id" => 26,
+                "name" => "title",
+                "image" => "images/artikel_26.jpg",
+                "link" => "source",
+                "status" => true,
+                "text" => "article"
+            ],
+            [
+                "id" => 27,
+                "name" => "title",
+                "image" => "images/artikel_27.jpg",
+                "link" => "source",
+                "status" => true,
+                "text" => "article"
+            ],
+            [
+                "id" => 28,
+                "name" => "title",
+                "image" => "images/artikel_28.jpg",
+                "link" => "source",
+                "status" => true,
+                "text" => "article"
+            ],
+            [
+                "id" => 29,
+                "name" => "title",
+                "image" => "images/artikel_29.jpg",
+                "link" => "source",
+                "status" => true,
+                "text" => "article"
+            ],
+            [
+                "id" => 30,
+                "name" => "title",
+                "image" => "images/artikel_30.jpg",
                 "link" => "source",
                 "status" => true,
                 "text" => "article"
