@@ -6,7 +6,7 @@ session_start();
 // Setup connection with database
 require_once 'database.php';
 
-$query = "SELECT age FROM aitestdata";
+$query = "SELECT * FROM aitestdata";
 
 // Store the albums in an array
 $ages = mysqli_query($db, $query)
