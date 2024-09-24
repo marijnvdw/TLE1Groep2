@@ -235,7 +235,7 @@
             //volledig Engelse artikelen
             [
                 "id" => 21,
-                "name" => "Scientists Claim New Pill Could Extend Human Life by 20 Years",
+                "name" => "Scientists claim new pill could extend human life by 20 years",
                 "image" => "images/artikel_21.jpg",
                 "link" => "ChatGPT",
                 "status" => false,
@@ -246,75 +246,113 @@
             ],
             [
                 "id" => 22,
-                "name" => "title",
+                "name" => "Pembrokeshire: Visitors urged to return stones taken from beach amid sea defence fears",
                 "image" => "images/artikel_22.jpg",
-                "link" => "source",
+                "link" => "https://news.sky.com/story/pembrokeshire-visitors-urged-to-return-stones-taken-from-beach-amid-sea-defence-fears-13213402",
                 "status" => true,
-                "text" => "article"
+                "text" => "<p>Visitors to a beach in Pembrokeshire have been asked to return its pebbles amid fears over the future of the area's sea defences.</p>
+                           <p>The stones were first introduced at Saundersfoot, in the south of the county in West Wales, in the 1970s.</p>
+                           <p>But since then the number of pebbles has significantly reduced, while sea levels are continuing to rise. A public meeting has now been called to discuss the concerns.</p>
+                           <p>Councillor Chris Williams, who represents Saundersfoot South on Pembrokeshire County Council, acknowledged that beachgoers who took pebbles did not 'mean any harm'.</p>
+                           <p>'They're unaware of the consequences,' he told Sky News.</p>
+                           <p>'All I want to get across is say, look, just be mindful of the residents who live there and the properties and the businesses and if you see people taking pebbles, just let them know that they're there for a reason.'</p>"
             ],
             [
                 "id" => 23,
-                "name" => "title",
+                "name" => "Trump says, if he loses, 2024 run will be his last",
                 "image" => "images/artikel_23.jpg",
-                "link" => "source",
+                "link" => "https://apnews.com/article/trump-election-2028-da72e8e1b412e85c012343fa70db4640",
                 "status" => true,
-                "text" => "article"
+                "text" => "<p>Former President Donald Trump said on Sunday that he doesn’t 'think' he’d run again for president in 2028 if he falls short in his bid to return to the White House in 2024.</p>
+                           <p>'No, I don’t. I think that will be, that will be it,' Trump said when journalist Sharyl Attkisson asked him if he’d run again.</p>
+                           <p>The comment was notable both because Trump seemed to rule out a fourth bid for the White House and because he rarely admits the possibility he could legitimately lose an election. Trump normally insists that could only happen if there were widespread cheating, a false allegation he made in 2020 and he’s preemptively made again during his 2024 presidential campaign.</p>
+                           <p>Trump would be 82 in 2028, a year older than President Joe Biden is now. Biden bowed out of the race in July following his disastrous debate performance and months of being hammered by Trump and other conservatives as being too old and erratic for the job.</p>
+                           <p>Attkisson interviewed Trump for her show 'Full Measure.' Also during the 22-minute interview, Trump defended his record on the coronavirus pandemic. He took credit for the development of the COVID-19 vaccines developed during his presidency while also saying 'they’re doing studies on the vaccines and we’re going to find out' if they are safe.</p>"
             ],
             [
                 "id" => 24,
-                "name" => "title",
+                "name" => "EU leaders call for reform to strengthen unity amid rising challenges",
                 "image" => "images/artikel_24.jpg",
-                "link" => "source",
-                "status" => true,
-                "text" => "article"
+                "link" => "ChatGPT",
+                "status" => false,
+                "text" => "<p>Brussels – In a pivotal meeting held this week, leaders of the European Union (EU) convened in Brussels to address mounting concerns over the bloc's unity in the face of various challenges, including economic instability, migration crises, and geopolitical tensions. European Commission President Ursula von der Leyen emphasized the need for urgent reform, stating that “we must strengthen our collective resilience to ensure that the EU can effectively respond to the crises of today and tomorrow.”</p>
+                          <p>During the summit, leaders discussed the ongoing economic fallout from the COVID-19 pandemic, which has left many member states struggling to recover. In a joint statement, the EU leaders agreed to prioritize economic recovery plans that promote sustainable growth and job creation. “We must invest in green technologies and digital infrastructure to ensure that Europe remains competitive on the global stage,” said French President Emmanuel Macron, advocating for a more unified economic strategy.</p>
+                          <p>Migration remains a contentious issue within the EU, with several countries expressing frustration over the uneven distribution of migrants and asylum seekers. Italian Prime Minister Giorgia Meloni called for a reform of the EU’s migration policy, stating that “solidarity among member states must be genuine and not just a political slogan.” The leaders agreed to establish a task force aimed at creating a more equitable system for managing migration across the bloc.</p>
+                          <p>Geopolitical tensions, particularly concerning Russia and China, were also a focal point of the discussions. Leaders underscored the importance of a cohesive foreign policy that reflects the EU's values and interests. German Chancellor Olaf Scholz proposed enhancing cooperation in defense and security, arguing that “the EU must assert its role as a global player and protect its strategic interests.”</p>
+                          <p>As the summit concluded, leaders expressed cautious optimism about the future of the EU. While acknowledging the challenges ahead, they reiterated their commitment to fostering unity and cooperation. “Now is the time to reaffirm our values and stand together as Europeans,” von der Leyen stated. The coming months will be crucial as the EU navigates its path forward amidst an increasingly complex global landscape.</p>"
             ],
             [
                 "id" => 25,
-                "name" => "title",
+                "name" => "Boss of Titan sub firm said: 'No-one is dying under my watch'",
                 "image" => "images/artikel_25.jpg",
-                "link" => "source",
+                "link" => "https://www.bbc.com/news/articles/c7819kx4498o",
                 "status" => true,
-                "text" => "article"
+                "text" => "<p>A transcript from a key meeting at the firm behind the ill-fated Titan submersible has revealed the CEO said in 2018: “No-one is dying under my watch - period.”</p>
+                          <p>It captures a heated exchange between OceanGate chief Stockton Rush and his former director of marine operations, David Lochridge, plus three other staff.</p>
+                          <p>The log shows Mr Lochridge raised safety concerns, to which Rush responded: “I have no desire to die... I think this is one of the safest things I will ever do.”</p>
+                          <p>The document was released by the US Coast Guard as part of its inquiry into the June 2023 disaster when the sub imploded while journeying to the Titanic shipwreck. All five passengers were killed, including Rush.</p>
+                          <p>OceanGate suspended all exploration and commercial operations following the incident, which led to questions about the submersible's safety and design.</p>
+                          <p>During two weeks of hearings, investigators are seeking to uncover what led to the tragedy, and to make recommendations to avoid repeat incidents.</p>"
             ],
             [
                 "id" => 26,
-                "name" => "title",
+                "name" => "Experts warn: potato shortage could impact global food security",
                 "image" => "images/artikel_26.jpg",
-                "link" => "source",
-                "status" => true,
-                "text" => "article"
+                "link" => "ChatGPT",
+                "status" => false,
+                "text" => "<p>As countries around the world grapple with the fallout from climate change and supply chain disruptions, experts are sounding the alarm over a potential potato shortage that could have serious implications for global food security. The humble potato, a staple in diets across the globe, is facing unprecedented challenges from extreme weather conditions and disease outbreaks.</p>
+                          <p>Recent reports indicate that major potato-producing regions, including parts of Europe and North America, have experienced severe droughts and heavy rains that have devastated crops. “The weather patterns we’re seeing are increasingly erratic,” says Dr. Linda Gomez, an agricultural scientist at the University of California. “These fluctuations not only affect yields but also threaten the quality of the potatoes being harvested.”</p>
+                          <p>The implications of a potato shortage are far-reaching. Potatoes are a key ingredient in numerous dishes worldwide, from French fries and mashed potatoes to traditional stews and curries. Additionally, they play a crucial role in the economy, providing livelihoods for millions of farmers and workers. “A decrease in potato supply could lead to rising prices, which disproportionately affects low-income households that rely on affordable staples,” warns economist Mark Sullivan.</p>
+                          <p>In response to the crisis, agricultural experts are advocating for increased investment in research and development of more resilient potato varieties that can withstand climate-related stressors. “We need to focus on sustainable farming practices and innovative technologies to secure the future of potato production,” Dr. Gomez adds. Countries are also being urged to diversify their food sources to mitigate reliance on any single crop.</p>
+                          <p>As the situation develops, consumers are advised to prepare for potential price increases at grocery stores. “While the potato shortage may not be the most immediate concern for everyone, it’s a reflection of larger issues in our food system that we cannot afford to ignore,” Sullivan concludes. The coming months will be critical in determining the future of potato availability and food security around the world.</p>"
             ],
             [
                 "id" => 27,
-                "name" => "title",
+                "name" => "Scientists discover that houseplants can communicate with each other",
                 "image" => "images/artikel_27.jpg",
-                "link" => "source",
-                "status" => true,
-                "text" => "article"
+                "link" => "ChatGPT",
+                "status" => false,
+                "text" => "<p>In a groundbreaking study published this week in the Journal of Botanical Research, a team of scientists from the University of London has revealed that houseplants possess the remarkable ability to communicate with one another. Using advanced sound detection technology, researchers found that plants emit low-frequency sounds when exposed to stressors such as drought or insect infestations, serving as warning signals to nearby plants. Lead researcher Dr. Laura Kensington stated, \"It's fascinating to see how plants interact in ways we never thought possible.\"</p>
+                          <p>The study also uncovered that plants share nutrients through their root systems. When one plant is under duress, neighboring plants appear to send additional resources to help it recover. \"This discovery could change how we approach plant care and gardening,\" said co-author Dr. Ravi Patel. \"Imagine creating a garden where plants not only thrive individually but also support one another.\" This revelation has sparked increased interest in companion planting among gardeners.</p>
+                          <p>Local garden centers have reported a surge in sales as customers seek to create harmonious ecosystems in their homes. Garden center owner Helen Fisher noted, \"People are more conscious than ever about how their plants interact. It’s like they’re creating little plant communities.\" This newfound awareness has led to a shift in how enthusiasts view their houseplants, treating them as part of a larger ecosystem rather than isolated entities.</p>
+                          <p>However, some experts urge caution, emphasizing the need for further research. Dr. Emily Chen, a botanist at the Royal Horticultural Society, warned, \"While the study is intriguing, we need solid scientific foundations before we start treating our houseplants like sentient beings.\" As this fascinating research unfolds, it opens up new possibilities for gardening and environmental stewardship, leaving both enthusiasts and scientists eager to learn more about the hidden lives of plants.</p>"
             ],
             [
                 "id" => 28,
-                "name" => "title",
+                "name" => "Innovative Solar-Powered Rail System Launched in Bhutan",
                 "image" => "images/artikel_28.jpg",
-                "link" => "source",
-                "status" => true,
-                "text" => "article"
+                "link" => "ChatGPT",
+                "status" => false,
+                "text" => "<p>In a groundbreaking move towards sustainable transportation, Bhutan has inaugurated its first solar-powered rail system. The new rail line connects the capital city of Thimphu to the bustling town of Phuentsholing, aiming to reduce carbon emissions while enhancing connectivity across the country.</p>
+                          <p>The rail system harnesses advanced solar technology, with solar panels installed along the tracks to power the trains. This initiative not only reflects Bhutan’s commitment to renewable energy but also aligns with the nation’s unique philosophy of Gross National Happiness, which prioritizes ecological sustainability alongside economic growth. Prime Minister Tshering Tobgay stated, \"This project represents our vision for a greener future.\"</p>
+                          <p>Beyond environmental benefits, the rail line is expected to significantly boost tourism and trade. Passengers can now enjoy breathtaking views of the Himalayan landscape while traveling comfortably and efficiently. Local businesses are preparing for an increase in visitors, with hotels and restaurants gearing up to welcome tourists eager to explore Bhutan's rich culture and heritage.</p>
+                          <p>However, the project has sparked concerns among environmentalists regarding its potential impact on the region's delicate ecosystems. Critics emphasize the need for strict ecological guidelines during construction and operation to protect local wildlife. In response, the Bhutanese government has committed to conducting thorough environmental assessments to monitor the rail system’s impact.</p>
+                          <p>Community leaders have expressed optimism about the new opportunities the rail line will bring. Local entrepreneur Tashi Wangchuk noted, \"We expect this rail line to create new avenues for our community, enhancing trade and tourism while promoting sustainable practices.\"</p>
+                          <p>As Bhutan embarks on this ambitious project, it positions itself as a leader in innovative sustainable development. The success of the solar-powered rail system could inspire similar initiatives across Asia, demonstrating the potential of green technology to transform transportation while safeguarding the environment for future generations.</p>"
             ],
             [
                 "id" => 29,
-                "name" => "title",
+                "name" => "A space rock is about to become Earth’s new ‘mini-moon’",
                 "image" => "images/artikel_29.jpg",
-                "link" => "source",
+                "link" => "https://edition.cnn.com/2024/09/20/science/earth-asteroid-mini-moon/index.html",
                 "status" => true,
-                "text" => "article"
+                "text" => "<p>Earth is about to gain a new “mini-moon,” but it won’t stay around for long.</p>
+                          <p>The newly discovered asteroid, named 2024 PT5, will temporarily be captured by Earth’s gravity and orbit our world from September 29 to November 25, according to astronomers. Then, the space rock will return to a heliocentric orbit, which is an orbit around the sun.</p>
+                          <p>Details about the ephemeral mini-moon and the horseshoe-shaped path it travels were published this month in the Research Notes of the American Astronomical Society.</p>
+                          <p>Astronomers first spotted the asteroid on August 7 using the South Africa-based observatory of the NASA-funded Asteroid Terrestrial-impact Last Alert System, or ATLAS.</p>
+                          <p>The asteroid is likely about 37 feet (11 meters) in diameter, but more observations and data are needed to confirm its size, said lead study author Carlos de la Fuente Marcos, a researcher on the faculty of mathematical sciences at the Complutense University of Madrid. The space rock could be anywhere between 16 and 138 feet (5 and 42 meters) in diameter, potentially larger than the asteroid that entered Earth’s atmosphere over Chelyabinsk, Russia, in 2013. About 55 to 65 feet (17 to 20 meters) in size, the Chelyabinsk asteroid exploded in the air, releasing 20 to 30 times more energy than that of the atomic bomb dropped on Hiroshima, Japan, and generating brightness greater than the sun. Debris from the space rock damaged more than 7,000 buildings and injured more than 1,000 people.</p>
+                          <p>But as a mini-moon, Asteroid 2024 PT5 isn’t in any danger of colliding with Earth now or over the next few decades, de la Fuente Marcos said. The space rock will orbit about 2.6 million miles (4.2 million kilometers) away, or about 10 times the distance between Earth and the moon.</p>"
             ],
             [
                 "id" => 30,
-                "name" => "title",
+                "name" => "Elijah Wood Launches Documentary Series on Environmental Activism",
                 "image" => "images/artikel_30.jpg",
-                "link" => "source",
-                "status" => true,
-                "text" => "article"
+                "link" => "ChatGPT",
+                "status" => false,
+                "text" => "<p>In an exciting new venture, Elijah Wood, famed for his role as Frodo Baggins in \"The Lord of the Rings,\" has announced the launch of a documentary series titled \"Guardians of the Earth,\" set to premiere in late 2024. The series aims to highlight grassroots environmental activism worldwide, focusing on individuals and organizations making a significant impact in the fight against climate change.</p>
+                          <p>Wood has spent much of 2024 traveling to meet activists in various settings, from urban gardens in New York City to indigenous communities in the Amazon. He expressed his belief that storytelling can inspire change, stating, \"This series amplifies the voices of those making a real difference.\" Each episode will explore different initiatives, showcasing the challenges and innovative solutions these activists encounter.</p>
+                          <p>The announcement has resonated with both fans and environmental advocates, who view the series as a timely exploration of urgent climate issues. Experts believe that Wood’s involvement will draw vital attention to the cause. \"His star power can inspire action among viewers,\" said Dr. Sarah Collins, an environmental scientist.</p>
+                          <p>As \"Guardians of the Earth\" prepares for its debut, Wood remains focused on this impactful project, even as rumors swirl about his potential return to Middle-earth in a new \"Lord of the Rings\" spin-off series. For now, he is committed to inspiring hope and action through his documentary work.</p>"
             ],
 
 

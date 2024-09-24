@@ -39,7 +39,7 @@
             <div class="startTestButtons">
                 <button class="startTest" id="startTestDutch"><strong>Nederlandse test</strong></button>
                 <button class="startTest" id="startTestMixed"><strong>Nederlandse & Engelse test</strong></button>
-                <button class="startTest hidden" id="startTestEnglish"><strong>English test</strong></button>
+                <button class="startTest" id="startTestEnglish"><strong>English test</strong></button>
             </div>
         </div>
         <div id="testArticles" class="hidden">
