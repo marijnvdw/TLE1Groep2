@@ -187,10 +187,7 @@ button {
     font-size: 18px;
 }
 
-button:hover {
-    cursor: pointer;
-    color: white;
-}
+
 
 #chooseAI {
     border: 7px solid rgb(31, 31, 238);
