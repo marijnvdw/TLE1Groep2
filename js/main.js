@@ -1,40 +1,64 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
-import config from './config.js';
+// import config from './config.js';
+
+import { GetFromAi } from './prompt.js'
 
 let trueRating;
 let progressExecuted = false;
-let key = config.API_KEY;
-// Q: API Segment
-const apiKey = key;
-const genAI = new GoogleGenerativeAI(apiKey);
-const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+// let key = config.API_KEY;
+// // Q: API Segment
+// const apiKey = key;
+// const genAI = new GoogleGenerativeAI(apiKey);
+//const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 const button = document.getElementById('myButton');
 const prompt = document.getElementById('prompt');
 let resultarea = document.getElementById('resultarea');
-button.addEventListener('click', async function () {
-    // Code to execute when the button is clicked
-    console.log(prompt.value);
-    try {
-        const result = await model.generateContent("Hoe betrouwbaar is deze website:" + prompt.value + ". Geef me een waarde van 0 / 100, als format: 'Score: __ / 100', zet dit aan het begin van je bericht");
-        console.log(result)
-        resultarea.innerHTML = result.response.text();
-        console.log(result.response.text());
-        const str = result.response.text();
-        const match = str.match(/\d+/); // Matches the first sequence of digits
 
-        if (match) {
-            const firstNumber = parseInt(match[0], 10); // Convert the match to an integer
-            console.log(firstNumber);
-            let score = firstNumber;
-            startProgress(score)
-        } else {
-            console.log("No number found.");
-        }
+
+
+async function fetchAiData(url) {
+
+    try {
+
+        const [score, result] = await GetFromAi(url);
+        // console.log(prompt.value)
+        console.log("Score from AI:", score);
+        console.log("Full result:", result);
     } catch (error) {
-        console.error("Error generating text:", error);
-        //return error
+        console.error("Error fetching data from AI:", error);
     }
+}
+
+// Use the function
+button.addEventListener('click', async function () {
+    fetchAiData(prompt.value);
 });
+// let AiPrompt =
+//
+// button.addEventListener('click', async function () {
+//     // Code to execute when the button is clicked
+//     console.log(prompt.value);
+//     try {
+//         const result = await model.generateContent("Hoe betrouwbaar is deze website:" + prompt.value + ". Geef me een waarde van 0 / 100, als format: 'Score: __ / 100', zet dit aan het begin van je bericht");
+//         console.log(result)
+//         resultarea.innerHTML = result.response.text();
+//         console.log(result.response.text());
+//         const str = result.response.text();
+//         const match = str.match(/\d+/); // Matches the first sequence of digits
+//
+//         if (match) {
+//             const firstNumber = parseInt(match[0], 10); // Convert the match to an integer
+//             console.log(firstNumber);
+//             let score = firstNumber;
+//             startProgress(score)
+//         } else {
+//             console.log("No number found.");
+//         }
+//     } catch (error) {
+//         console.error("Error generating text:", error);
+//         //return error
+//     }
+// });
 
 // API Segment End
 
