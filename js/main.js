@@ -1,6 +1,7 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import config from './config.js';
 
+
 let trueRating;
 let progressExecuted = false;
 let key = config.API_KEY;
