@@ -1,186 +1,116 @@
-window.addEventListener('load', init);
+import { GoogleGenerativeAI } from "@google/generative-ai";
+// import config from './config.js';
 
-let testExplanation
-let testArticles
-let testResults
-let buttonAI
-let buttonHuman
+import { GetFromAi } from './prompt.js'
 
-let articlesData
-//articleNumber wordt gebruikt om het artikel uit de database te halen.
-//articleTestNumber wordt gebruikt om het artikel aan te duiden dat momenteel op de pagina staat.
-let articleNumber
-let articleTestNumber = 0
+let trueRating;
+let progressExecuted = false;
+// let key = config.API_KEY;
+// // Q: API Segment
+// const apiKey = key;
+// const genAI = new GoogleGenerativeAI(apiKey);
+//const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+const button = document.getElementById('myButton');
+const prompt = document.getElementById('prompt');
+let resultarea = document.getElementById('resultarea');
 
-let correctGuesses = 0
 
 
-function init() {
-    elementLoader()
-    ajaxRequest('services/webservice/index.php', jsonLoader)
+async function fetchAiData(url) {
+
+    try {
+
+        const [score, result] = await GetFromAi(url);
+        // console.log(prompt.value)
+        console.log("Score from AI:", score);
+        console.log("Full result:", result);
+    } catch (error) {
+        console.error("Error fetching data from AI:", error);
+    }
 }
 
-function ajaxRequest(url, successHandler) {
-    fetch(url)
-        .then((response) => response.json())
-        .then((data) => {
-            if (typeof data.error !== 'undefined') {
-                throw new Error(data.error.message);
-            }
-            successHandler(data);
-        })
-}
+// Use the function
+button.addEventListener('click', async function () {
+    fetchAiData(prompt.value);
+});
+// let AiPrompt =
+//
+// button.addEventListener('click', async function () {
+//     // Code to execute when the button is clicked
+//     console.log(prompt.value);
+//     try {
+//         const result = await model.generateContent("Hoe betrouwbaar is deze website:" + prompt.value + ". Geef me een waarde van 0 / 100, als format: 'Score: __ / 100', zet dit aan het begin van je bericht");
+//         console.log(result)
+//         resultarea.innerHTML = result.response.text();
+//         console.log(result.response.text());
+//         const str = result.response.text();
+//         const match = str.match(/\d+/); // Matches the first sequence of digits
+//
+//         if (match) {
+//             const firstNumber = parseInt(match[0], 10); // Convert the match to an integer
+//             console.log(firstNumber);
+//             let score = firstNumber;
+//             startProgress(score)
+//         } else {
+//             console.log("No number found.");
+//         }
+//     } catch (error) {
+//         console.error("Error generating text:", error);
+//         //return error
+//     }
+// });
 
-function elementLoader() {
-    startTestDutch = document.getElementById("startTestDutch")
-    startTestDutch.addEventListener('click', function () {
-        startTest('dutch')
-    });
-    startTestMixed = document.getElementById("startTestMixed")
-    startTestMixed.addEventListener('click', function () {
-        startTest('mixed')
-    });
-    startTestEnglish = document.getElementById("startTestEnglish")
-    startTestEnglish.addEventListener('click', function () {
-        startTest('english')
-    });
+// API Segment End
 
-    buttonAI = document.getElementById("chooseAI")
-    buttonAI.addEventListener('click', function () {
-        nextArticleButtonPress(false);
-    });
+function startProgress(score) {
+    // Ensure the function doesn't run more than once
+    if (progressExecuted) return;
 
-    buttonHuman = document.getElementById("chooseHuman")
-    buttonHuman.addEventListener('click', function () {
-        nextArticleButtonPress(true);
-    });
+    // Set trueRating to the score passed to the function
+    trueRating = score;
 
-    continueToNextArticle = document.getElementById("continueToNextArticle")
-    continueToNextArticle.addEventListener('click', function () {
-        //check if article is the last article
-        if (articleTestNumber < 10) {
-            loadNextArticle()
-        } else {
-            //laat de laatste pagina met de score zien
-            console.log('this is the last article')
-            endTest()
-        }
-    });
+    // Get the progress bar element
+    const fillElement = document.getElementById("fill");
 
-    returnHome = document.getElementById("returnHome")
-    returnHome.addEventListener('click', function () {
-        location.reload()
-    });
-}
+    // Get the result div where the text will be shown
+    const resultDiv = document.getElementById('response');
+    let resultText = "Bezig met scannen..."; // Default scanning text
+    let strokeColor = "#e0e0e0"; // Default color for invalid rating
 
-function jsonLoader(data) {
-    console.log(data)
-    articlesData = data
-}
-
-function loadNextArticle() {
-    articleInfo = document.getElementById("articleInfo")
-    articleInfo.classList.add("hidden")
-
-    let articleData = articlesData[articleNumber]
-
-    articleTitle = document.getElementById("articleTitle")
-    articleTitle.innerHTML = articleData['name']
-
-    articleText = document.getElementById("articleText")
-    articleText.innerHTML = articleData['text']
-
-    articleImage = document.getElementById("articleImage")
-    articleImage.src = articleData['image']
-
-    questionCounter = document.getElementById("questionCounter")
-    questionCounter.innerHTML = `${articleTestNumber + 1}/10`
-
-    correctCounter = document.getElementById("correctCounter")
-    correctCounter.innerHTML = `Good answers: ${correctGuesses}/${articleTestNumber}`
-}
-
-function nextArticleButtonPress(choice) {
-    colorText = document.getElementById("colorText")
-
-    //check if the answer is correct and add a point to the score if it is correct
-    if (articlesData[articleNumber]["status"] === choice) {
-        //answer is correct, add point to score
-        correctGuesses += 1
-
-        //make info text green if it was correct
-        colorText.classList.remove("redText")
-        colorText.classList.add("greenText")
-
-        //tell the user that it was correct
-        showCorrect = document.getElementById("showCorrect")
-        showCorrect.innerHTML = 'Correct, this article was:'
+    // Set the result text and stroke color based on the trueRating
+    if (trueRating < 25) {
+        resultText = "Je nieuwsbron is niet te vertrouwen!";
+        strokeColor = "#ff0000"; // Red for low trust
+    } else if (trueRating < 50) {
+        resultText = "Vertouw dit op je eigen risico, er zitten fouten hierin!";
+        strokeColor = "#ff8000"; // Orange for medium-low trust
+    } else if (trueRating < 75) {
+        resultText = "Redelijke nieuwsbron, maar let toch op voor enige fouten!";
+        strokeColor = "#ffff00"; // Yellow for medium trust
+    } else if (trueRating <= 100) {
+        resultText = "Je nieuwsbron is goed te vertrouwen!";
+        strokeColor = "#00ff00"; // Green for high trust
     } else {
-        //make info text red if it was incorrect
-        colorText.classList.remove("greenText")
-        colorText.classList.add("redText")
-
-        //tell the user that it was incorrect
-        showCorrect = document.getElementById("showCorrect")
-        showCorrect.innerHTML = 'Wrong, this article was:'
+        resultText = "Ongeldige waarde voor trueRating."; // Fallback for unexpected values
     }
 
-    //enter info text
-    articleType = document.getElementById("articleType")
-    sourceLink = document.getElementById("sourceLink")
+    // Update the text content of the result div
+    resultDiv.innerText = resultText;
 
-    if (articlesData[articleNumber]["status"] === true) {
-        articleType.innerHTML = 'Real'
-        sourceLink.innerHTML = `Source: ${articlesData[articleNumber]["link"]}`
-    } else {
-        articleType.innerHTML = 'Fake'
-        sourceLink.innerHTML = `Source: ${articlesData[articleNumber]["link"]}`
-    }
+    // Calculate the stroke-dashoffset for the progress bar
+    const radius = 45; // The radius of the circle
+    const circumference = 2 * Math.PI * radius; // The full circumference of the circle
 
-    //show the info text
-    articleInfo = document.getElementById("articleInfo")
-    articleInfo.classList.remove("hidden")
+    // Set the stroke-dasharray if it's not already set
+    fillElement.style.strokeDasharray = circumference;
 
-    //go to the next article
-    articleNumber += 1
-    articleTestNumber += 1
+    // Calculate the offset based on the score (trueRating)
+    const offset = circumference - (trueRating / 100) * circumference;
 
+    // Set the color and progress based on the trueRating
+    fillElement.style.stroke = strokeColor; // Update stroke color
+    fillElement.style.strokeDashoffset = offset; // Update stroke-dashoffset for progress
 
-    console.log(correctGuesses)
-}
-
-function startTest(language) {
-    if (language === 'mixed') {
-        articleNumber = 0
-        console.log('start test in mixed languages')
-    } else {
-        if (language === 'dutch') {
-            articleNumber = 10
-            console.log('start test in dutch language')
-        } else {
-            if (language === 'english') {
-                articleNumber = 20
-                console.log('start test in english language')
-            }
-        }
-    }
-
-    loadNextArticle()
-
-    testExplanation = document.getElementById("testExplanation")
-    testExplanation.remove();
-
-    testArticles = document.getElementById("testArticles")
-    testArticles.classList.remove("hidden")
-}
-
-function endTest() {
-    resultsScore = document.getElementById("resultsScore")
-    resultsScore.innerHTML = `You scored ${correctGuesses}/10`
-
-    testArticles = document.getElementById("testArticles")
-    testArticles.classList.add("hidden")
-
-    testResults = document.getElementById("testResults")
-    testResults.classList.remove("hidden")
+    // Mark that progress has been executed to avoid rerunning
+    progressExecuted = true;
 }
