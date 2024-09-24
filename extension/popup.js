@@ -2,11 +2,24 @@ const browser = window.browser || window.chrome;
 
 document.addEventListener("DOMContentLoaded", function () {
 
-    browser.tabs.query({ active: true, currentWindow: true }, tabs => {
-        
-        let url = tabs[0].url;
-        console.log(url);
-    });
+    function urlHandler(params) {
+        browser.tabs.query({ active: true, currentWindow: true }, tabs => {
+
+            let url = tabs[0].url;
+            console.log(url);
+
+            browser.storage.local.set({ currentUrl: url })
+                .then(() => {
+                    console.log("URL stored:", url);
+                })
+                .catch((error) => {
+                    console.error("Error storing URL:", error);
+                });
+        });
+    }
+
+    
+    
 
 
 let articlePercentage = 40
@@ -16,6 +29,8 @@ let sourcePercentage = 60
 
 document.getElementById("clickMe").addEventListener("click", function () {
     
+    urlHandler()
+
     const circles = document.querySelectorAll(".circle");
     
     circles.forEach(circle => {
