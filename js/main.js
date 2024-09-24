@@ -32,10 +32,6 @@ function ajaxRequest(url, successHandler) {
 }
 
 function elementLoader() {
-    // testExplanation = document.getElementById("testExplanation")
-    // testArticles = document.getElementById("testArticles")
-    // testResults = document.getElementById("testResults")
-
     startTestDutch = document.getElementById("startTestDutch")
     startTestDutch.addEventListener('click', function () {
         startTest('dutch')
