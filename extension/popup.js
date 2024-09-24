@@ -6,7 +6,18 @@ document.addEventListener("DOMContentLoaded", function () {
         
         let url = tabs[0].url;
         console.log(url);
+
+        browser.storage.local.set({ currentUrl: url })
+            .then(() => {
+                console.log("URL stored:", url);
+            })
+            .catch((error) => {
+                console.error("Error storing URL:", error);
+            });
     });
+
+    
+    
 
 
 let articlePercentage = 40
