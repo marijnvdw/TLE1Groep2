@@ -3,10 +3,32 @@
     "name": "Verinews",
     "version": "1.0",
     "description": "A extension that checks if news is fake or not, with the help of AI, and carefully chosen prompts.",
+    "permissions": [
+        "activeTab , storage"
+    ],
     "action": {
         "default_popup": "index.html"
     },
-    "permissions": [
-        "activeTab"
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "polyfill/browser-polyfill.js",
+                "content.js"
+            ]
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "libs/browser-polyfill.min.js"
+            ],
+            "matches": [
+                "<all_urls>"
+            ]
+        }
     ]
+    
 }

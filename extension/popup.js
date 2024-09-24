@@ -1,6 +1,8 @@
+const browser = window.browser || window.chrome;
+
 document.addEventListener("DOMContentLoaded", function () {
 
-    chrome.tabs.query({ active: true, currentWindow: true }, tabs => {
+    browser.tabs.query({ active: true, currentWindow: true }, tabs => {
         
         let url = tabs[0].url;
         console.log(url);
