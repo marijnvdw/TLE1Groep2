@@ -118,12 +118,17 @@
             //volledig Nederlandse artikelen (ook nepnieuws zonder ai)
             [
                 "id" => 11,
-                "name" => "Gorilla Bokito (27) tijdens narcose doodgegaan in Diergaarde Blijdorp",
-                "image" => "images/artikel_2.jpg",
-                "link" => "https://nos.nl/artikel/2470274-gorilla-bokito-27-tijdens-narcose-doodgegaan-in-diergaarde-blijdorp",
+                "name" => "Straatje erbij levert minder huizen op dan gedacht",
+                "image" => "images/artikel_11.jpg",
+                "link" => "https://nos.nl/artikel/2538323-straatje-erbij-levert-minder-huizen-op-dan-gedacht",
                 "status" => true,
-                "text" => "<p>Gorilla Bokito uit Diergaarde Blijdorp in Rotterdam is op 27-jarige leeftijd doodgegaan. Dat gebeurde gisteren, tijdens een narcose. Het dier was sinds zondag niet in orde.</p>
-                            <p>Blijdorp onderzocht maandag de mest van de gorilla om te zien wat er aan de hand was. Ook werd Bokito extra geobserveerd. Gisteren was de situatie nog niet verbeterd. De dierentuin heeft het dier onder narcose nog vocht toegediend, maar het overleed tijdens de narcose. Naar de oorzaak van het onverwachte overlijden wordt onderzoek gedaan.</p><p>Volgens Blijdorp is de hele gorillagroep aangeslagen door de gebeurtenis. Onder medewerkers van de dierentuin, en vooral onder de verzorgers van de apen, heerst verslagenheid. In het wild worden gorilla's 35 tot 40 jaar oud.</p>"
+                "text" => "<p>Het plan om bij steden en dorpen een straatje bij te bouwen, levert veel minder huizen op dan eerder gedacht. Volgens een berekening van het Planbureau voor de Leefomgeving levert het plan maximaal 95.000 woningen op en waarschijnlijk in de praktijk nog wat minder.</p>
+                            <p>Bouwers noemden het plan eerder dé oplossing voor het woningtekort, maar volgens dit rapport helpt het maar een beetje. Er zijn een miljoen huizen nodig.</p>
+                            <p>\"Wij gaan uit van een straatje van maximaal vijftig woningen, en daarbij hebben we gekeken naar plekken die niet in een natuurgebied liggen\", zegt Marko Hekkert, directeur voor het Planbureau voor de Leefomgeving.</p>
+                            <p>\"De potentie is een stuk kleiner dan gedacht, maar voor sommige provincies is het een goede oplossing, bijvoorbeeld voor provincies zoals Groningen, Friesland, Drenthe en Zeeland\", zegt Hekkert. Dat zijn niet de regio's waar de meeste vraag is naar woningen.</p>
+                            <p>Het Economisch Instituut voor de Bouw heeft kritiek op de berekeningen en zegt dat de potentie van het plan veel groter is. Daar is de directeur van het Planbureau voor de Leefomgeving het niet mee eens.</p>
+                            <p>\"We hebben gekeken naar het effect als je één straat erbij bouwt. Je kan veel meer erbij bouwen, maar dan gaat het ten koste van weilanden en heb je het over een wijkje erbij bouwen. Dan kan je naar een miljoen huizen toe, maar dan heb je het niet meer over straatje erbij.\"</p>
+                            <p>Voor het kabinet is het plan een van de manieren om het woningtekort op te lossen. Het doel is om 100.000 woningen per jaar te bouwen. Er wordt snel gezocht naar extra bouwlocaties en er worden nieuwe grootschalige woningbouwlocaties aangewezen.</p>"
             ],
             [
                 "id" => 12,
@@ -161,11 +166,13 @@
             ],
             [
                 "id" => 15,
-                "name" => "Wetenschappers ontdekken bomen die zuurstof absorberen in plaats van produceren",
-                "image" => "images/artikel_7.jpg",
+                "name" => "Onderzoek: chipsconsumptie bevordert concentratie en geheugen bij studenten",
+                "image" => "images/artikel_15.jpg",
                 "link" => "ChatGPT",
                 "status" => false,
-                "text" => "<p>In een onverwachte ontdekking hebben botanici aan de Universiteit van Wageningen een boomsoort geïdentificeerd die geen zuurstof produceert, maar het juist absorbeert. Deze bomen, gevonden in een afgelegen deel van de Amazone, gedragen zich tegengesteld aan wat we van planten gewend zijn. In plaats van fotosynthese, waarbij planten koolstofdioxide opnemen en zuurstof afgeven, nemen deze bomen zuurstof uit de lucht en stoten ze stikstof uit.</p><p>Wetenschappers zijn bezorgd dat als deze bomen zich verspreiden naar andere delen van de wereld, ze mogelijk een bedreiging vormen voor het ecologische evenwicht.</p>"
+                "text" => "<p>Utrecht – Een recent onderzoek van de Universiteit Utrecht suggereert dat het eten van chips tijdens het studeren positieve effecten kan hebben op de concentratie en het geheugen. In een studie onder 300 studenten werd vastgesteld dat degenen die regelmatig chips aten tijdens het leren hun tentamens gemiddeld 12% beter maakten dan degenen die geen snacks consumeerden. De onderzoekers wijzen op een combinatie van zout en vetten die zorgen voor een snelle energieboost en een verbeterde focus.</p>
+                            <p>Professor Erik van der Hoek, die het onderzoek leidde, is enthousiast over de bevindingen. \"Dit zou wel eens de nieuwe studiehack kunnen worden voor studenten,\" aldus Van der Hoek. \"We weten al langer dat kleine snacks je alert kunnen houden, maar we waren verrast om te zien hoe effectief chips hierin zijn.\" Hij geeft wel aan dat overmatige consumptie negatieve gezondheidsgevolgen kan hebben, maar bij gematigde inname zouden de voordelen duidelijk opwegen tegen de nadelen.</p>
+                            <p>Niet iedereen is overtuigd. Voedingsdeskundigen waarschuwen voor de gevolgen van het normaliseren van ongezonde snacks in studieroutines. \"Het is zorgwekkend dat zo’n bericht studenten aanmoedigt om ongezond te eten,\" zegt Diëtiste Annemarie Jansen. \"Er zijn gezondere opties die net zo effectief kunnen zijn, zoals noten of fruit.\" Desondanks overweegt de universiteit de resultaten van het onderzoek te delen met studieverenigingen om studenten bewust te maken van de mogelijke voordelen.</p>"
             ],
             [
                 "id" => 16,
@@ -228,11 +235,124 @@
             //volledig Engelse artikelen
             [
                 "id" => 21,
-                "name" => "title21",
-                "image" => "images/artikel_x.jpg",
-                "link" => "source",
+                "name" => "Scientists claim new pill could extend human life by 20 years",
+                "image" => "images/artikel_21.jpg",
+                "link" => "ChatGPT",
+                "status" => false,
+                "text" => "<p>A group of researchers at Oxford University has claimed to have developed a pill that could potentially extend human life by up to 20 years. The pill, which is currently undergoing clinical trials, targets the ageing process at a cellular level by repairing damaged DNA and boosting the body’s natural ability to regenerate. The scientists behind the breakthrough believe it could revolutionise healthcare and significantly increase life expectancy.</p>
+                            <p>Lead researcher Dr. Sarah Bennett explained that the pill works by stimulating the production of enzymes responsible for repairing telomeres, the protective caps on the ends of chromosomes that shorten as we age. \"Our research shows that by preserving telomere length, we can not only slow down the ageing process but, in some cases, reverse some of the physical signs of ageing,\" said Dr. Bennett. Early trials in mice have shown promising results, with test subjects living up to 30% longer than expected.</p>
+                            <p>Despite the excitement surrounding the discovery, experts warn that more research is needed to ensure the safety and efficacy of the pill in humans. Critics, such as Professor Mark Anderson from King’s College London, argue that extending human life comes with significant ethical and social challenges. \"If people live longer, we must consider the impact on the economy, pensions, and even the environment,\" said Anderson. \"It raises the question of whether society is ready for such a profound shift in life expectancy.\"</p>
+                            <p>The Oxford team plans to begin large-scale human trials within the next two years. If successful, the pill could be available to the public within a decade. However, some caution that the cost of the treatment may make it accessible only to the wealthy, raising concerns about inequality in healthcare.</p>"
+            ],
+            [
+                "id" => 22,
+                "name" => "Pembrokeshire: Visitors urged to return stones taken from beach amid sea defence fears",
+                "image" => "images/artikel_22.jpg",
+                "link" => "https://news.sky.com/story/pembrokeshire-visitors-urged-to-return-stones-taken-from-beach-amid-sea-defence-fears-13213402",
                 "status" => true,
-                "text" => "article"
+                "text" => "<p>Visitors to a beach in Pembrokeshire have been asked to return its pebbles amid fears over the future of the area's sea defences.</p>
+                           <p>The stones were first introduced at Saundersfoot, in the south of the county in West Wales, in the 1970s.</p>
+                           <p>But since then the number of pebbles has significantly reduced, while sea levels are continuing to rise. A public meeting has now been called to discuss the concerns.</p>
+                           <p>Councillor Chris Williams, who represents Saundersfoot South on Pembrokeshire County Council, acknowledged that beachgoers who took pebbles did not 'mean any harm'.</p>
+                           <p>'They're unaware of the consequences,' he told Sky News.</p>
+                           <p>'All I want to get across is say, look, just be mindful of the residents who live there and the properties and the businesses and if you see people taking pebbles, just let them know that they're there for a reason.'</p>"
+            ],
+            [
+                "id" => 23,
+                "name" => "Trump says, if he loses, 2024 run will be his last",
+                "image" => "images/artikel_23.jpg",
+                "link" => "https://apnews.com/article/trump-election-2028-da72e8e1b412e85c012343fa70db4640",
+                "status" => true,
+                "text" => "<p>Former President Donald Trump said on Sunday that he doesn’t 'think' he’d run again for president in 2028 if he falls short in his bid to return to the White House in 2024.</p>
+                           <p>'No, I don’t. I think that will be, that will be it,' Trump said when journalist Sharyl Attkisson asked him if he’d run again.</p>
+                           <p>The comment was notable both because Trump seemed to rule out a fourth bid for the White House and because he rarely admits the possibility he could legitimately lose an election. Trump normally insists that could only happen if there were widespread cheating, a false allegation he made in 2020 and he’s preemptively made again during his 2024 presidential campaign.</p>
+                           <p>Trump would be 82 in 2028, a year older than President Joe Biden is now. Biden bowed out of the race in July following his disastrous debate performance and months of being hammered by Trump and other conservatives as being too old and erratic for the job.</p>
+                           <p>Attkisson interviewed Trump for her show 'Full Measure.' Also during the 22-minute interview, Trump defended his record on the coronavirus pandemic. He took credit for the development of the COVID-19 vaccines developed during his presidency while also saying 'they’re doing studies on the vaccines and we’re going to find out' if they are safe.</p>"
+            ],
+            [
+                "id" => 24,
+                "name" => "EU leaders call for reform to strengthen unity amid rising challenges",
+                "image" => "images/artikel_24.jpg",
+                "link" => "ChatGPT",
+                "status" => false,
+                "text" => "<p>Brussels – In a pivotal meeting held this week, leaders of the European Union (EU) convened in Brussels to address mounting concerns over the bloc's unity in the face of various challenges, including economic instability, migration crises, and geopolitical tensions. European Commission President Ursula von der Leyen emphasized the need for urgent reform, stating that “we must strengthen our collective resilience to ensure that the EU can effectively respond to the crises of today and tomorrow.”</p>
+                          <p>During the summit, leaders discussed the ongoing economic fallout from the COVID-19 pandemic, which has left many member states struggling to recover. In a joint statement, the EU leaders agreed to prioritize economic recovery plans that promote sustainable growth and job creation. “We must invest in green technologies and digital infrastructure to ensure that Europe remains competitive on the global stage,” said French President Emmanuel Macron, advocating for a more unified economic strategy.</p>
+                          <p>Migration remains a contentious issue within the EU, with several countries expressing frustration over the uneven distribution of migrants and asylum seekers. Italian Prime Minister Giorgia Meloni called for a reform of the EU’s migration policy, stating that “solidarity among member states must be genuine and not just a political slogan.” The leaders agreed to establish a task force aimed at creating a more equitable system for managing migration across the bloc.</p>
+                          <p>Geopolitical tensions, particularly concerning Russia and China, were also a focal point of the discussions. Leaders underscored the importance of a cohesive foreign policy that reflects the EU's values and interests. German Chancellor Olaf Scholz proposed enhancing cooperation in defense and security, arguing that “the EU must assert its role as a global player and protect its strategic interests.”</p>
+                          <p>As the summit concluded, leaders expressed cautious optimism about the future of the EU. While acknowledging the challenges ahead, they reiterated their commitment to fostering unity and cooperation. “Now is the time to reaffirm our values and stand together as Europeans,” von der Leyen stated. The coming months will be crucial as the EU navigates its path forward amidst an increasingly complex global landscape.</p>"
+            ],
+            [
+                "id" => 25,
+                "name" => "Boss of Titan sub firm said: 'No-one is dying under my watch'",
+                "image" => "images/artikel_25.jpg",
+                "link" => "https://www.bbc.com/news/articles/c7819kx4498o",
+                "status" => true,
+                "text" => "<p>A transcript from a key meeting at the firm behind the ill-fated Titan submersible has revealed the CEO said in 2018: “No-one is dying under my watch - period.”</p>
+                          <p>It captures a heated exchange between OceanGate chief Stockton Rush and his former director of marine operations, David Lochridge, plus three other staff.</p>
+                          <p>The log shows Mr Lochridge raised safety concerns, to which Rush responded: “I have no desire to die... I think this is one of the safest things I will ever do.”</p>
+                          <p>The document was released by the US Coast Guard as part of its inquiry into the June 2023 disaster when the sub imploded while journeying to the Titanic shipwreck. All five passengers were killed, including Rush.</p>
+                          <p>OceanGate suspended all exploration and commercial operations following the incident, which led to questions about the submersible's safety and design.</p>
+                          <p>During two weeks of hearings, investigators are seeking to uncover what led to the tragedy, and to make recommendations to avoid repeat incidents.</p>"
+            ],
+            [
+                "id" => 26,
+                "name" => "Experts warn: potato shortage could impact global food security",
+                "image" => "images/artikel_26.jpg",
+                "link" => "ChatGPT",
+                "status" => false,
+                "text" => "<p>As countries around the world grapple with the fallout from climate change and supply chain disruptions, experts are sounding the alarm over a potential potato shortage that could have serious implications for global food security. The humble potato, a staple in diets across the globe, is facing unprecedented challenges from extreme weather conditions and disease outbreaks.</p>
+                          <p>Recent reports indicate that major potato-producing regions, including parts of Europe and North America, have experienced severe droughts and heavy rains that have devastated crops. “The weather patterns we’re seeing are increasingly erratic,” says Dr. Linda Gomez, an agricultural scientist at the University of California. “These fluctuations not only affect yields but also threaten the quality of the potatoes being harvested.”</p>
+                          <p>The implications of a potato shortage are far-reaching. Potatoes are a key ingredient in numerous dishes worldwide, from French fries and mashed potatoes to traditional stews and curries. Additionally, they play a crucial role in the economy, providing livelihoods for millions of farmers and workers. “A decrease in potato supply could lead to rising prices, which disproportionately affects low-income households that rely on affordable staples,” warns economist Mark Sullivan.</p>
+                          <p>In response to the crisis, agricultural experts are advocating for increased investment in research and development of more resilient potato varieties that can withstand climate-related stressors. “We need to focus on sustainable farming practices and innovative technologies to secure the future of potato production,” Dr. Gomez adds. Countries are also being urged to diversify their food sources to mitigate reliance on any single crop.</p>
+                          <p>As the situation develops, consumers are advised to prepare for potential price increases at grocery stores. “While the potato shortage may not be the most immediate concern for everyone, it’s a reflection of larger issues in our food system that we cannot afford to ignore,” Sullivan concludes. The coming months will be critical in determining the future of potato availability and food security around the world.</p>"
+            ],
+            [
+                "id" => 27,
+                "name" => "Scientists discover that houseplants can communicate with each other",
+                "image" => "images/artikel_27.jpg",
+                "link" => "ChatGPT",
+                "status" => false,
+                "text" => "<p>In a groundbreaking study published this week in the Journal of Botanical Research, a team of scientists from the University of London has revealed that houseplants possess the remarkable ability to communicate with one another. Using advanced sound detection technology, researchers found that plants emit low-frequency sounds when exposed to stressors such as drought or insect infestations, serving as warning signals to nearby plants. Lead researcher Dr. Laura Kensington stated, \"It's fascinating to see how plants interact in ways we never thought possible.\"</p>
+                          <p>The study also uncovered that plants share nutrients through their root systems. When one plant is under duress, neighboring plants appear to send additional resources to help it recover. \"This discovery could change how we approach plant care and gardening,\" said co-author Dr. Ravi Patel. \"Imagine creating a garden where plants not only thrive individually but also support one another.\" This revelation has sparked increased interest in companion planting among gardeners.</p>
+                          <p>Local garden centers have reported a surge in sales as customers seek to create harmonious ecosystems in their homes. Garden center owner Helen Fisher noted, \"People are more conscious than ever about how their plants interact. It’s like they’re creating little plant communities.\" This newfound awareness has led to a shift in how enthusiasts view their houseplants, treating them as part of a larger ecosystem rather than isolated entities.</p>
+                          <p>However, some experts urge caution, emphasizing the need for further research. Dr. Emily Chen, a botanist at the Royal Horticultural Society, warned, \"While the study is intriguing, we need solid scientific foundations before we start treating our houseplants like sentient beings.\" As this fascinating research unfolds, it opens up new possibilities for gardening and environmental stewardship, leaving both enthusiasts and scientists eager to learn more about the hidden lives of plants.</p>"
+            ],
+            [
+                "id" => 28,
+                "name" => "Innovative Solar-Powered Rail System Launched in Bhutan",
+                "image" => "images/artikel_28.jpg",
+                "link" => "ChatGPT",
+                "status" => false,
+                "text" => "<p>In a groundbreaking move towards sustainable transportation, Bhutan has inaugurated its first solar-powered rail system. The new rail line connects the capital city of Thimphu to the bustling town of Phuentsholing, aiming to reduce carbon emissions while enhancing connectivity across the country.</p>
+                          <p>The rail system harnesses advanced solar technology, with solar panels installed along the tracks to power the trains. This initiative not only reflects Bhutan’s commitment to renewable energy but also aligns with the nation’s unique philosophy of Gross National Happiness, which prioritizes ecological sustainability alongside economic growth. Prime Minister Tshering Tobgay stated, \"This project represents our vision for a greener future.\"</p>
+                          <p>Beyond environmental benefits, the rail line is expected to significantly boost tourism and trade. Passengers can now enjoy breathtaking views of the Himalayan landscape while traveling comfortably and efficiently. Local businesses are preparing for an increase in visitors, with hotels and restaurants gearing up to welcome tourists eager to explore Bhutan's rich culture and heritage.</p>
+                          <p>However, the project has sparked concerns among environmentalists regarding its potential impact on the region's delicate ecosystems. Critics emphasize the need for strict ecological guidelines during construction and operation to protect local wildlife. In response, the Bhutanese government has committed to conducting thorough environmental assessments to monitor the rail system’s impact.</p>
+                          <p>Community leaders have expressed optimism about the new opportunities the rail line will bring. Local entrepreneur Tashi Wangchuk noted, \"We expect this rail line to create new avenues for our community, enhancing trade and tourism while promoting sustainable practices.\"</p>
+                          <p>As Bhutan embarks on this ambitious project, it positions itself as a leader in innovative sustainable development. The success of the solar-powered rail system could inspire similar initiatives across Asia, demonstrating the potential of green technology to transform transportation while safeguarding the environment for future generations.</p>"
+            ],
+            [
+                "id" => 29,
+                "name" => "A space rock is about to become Earth’s new ‘mini-moon’",
+                "image" => "images/artikel_29.jpg",
+                "link" => "https://edition.cnn.com/2024/09/20/science/earth-asteroid-mini-moon/index.html",
+                "status" => true,
+                "text" => "<p>Earth is about to gain a new “mini-moon,” but it won’t stay around for long.</p>
+                          <p>The newly discovered asteroid, named 2024 PT5, will temporarily be captured by Earth’s gravity and orbit our world from September 29 to November 25, according to astronomers. Then, the space rock will return to a heliocentric orbit, which is an orbit around the sun.</p>
+                          <p>Details about the ephemeral mini-moon and the horseshoe-shaped path it travels were published this month in the Research Notes of the American Astronomical Society.</p>
+                          <p>Astronomers first spotted the asteroid on August 7 using the South Africa-based observatory of the NASA-funded Asteroid Terrestrial-impact Last Alert System, or ATLAS.</p>
+                          <p>The asteroid is likely about 37 feet (11 meters) in diameter, but more observations and data are needed to confirm its size, said lead study author Carlos de la Fuente Marcos, a researcher on the faculty of mathematical sciences at the Complutense University of Madrid. The space rock could be anywhere between 16 and 138 feet (5 and 42 meters) in diameter, potentially larger than the asteroid that entered Earth’s atmosphere over Chelyabinsk, Russia, in 2013. About 55 to 65 feet (17 to 20 meters) in size, the Chelyabinsk asteroid exploded in the air, releasing 20 to 30 times more energy than that of the atomic bomb dropped on Hiroshima, Japan, and generating brightness greater than the sun. Debris from the space rock damaged more than 7,000 buildings and injured more than 1,000 people.</p>
+                          <p>But as a mini-moon, Asteroid 2024 PT5 isn’t in any danger of colliding with Earth now or over the next few decades, de la Fuente Marcos said. The space rock will orbit about 2.6 million miles (4.2 million kilometers) away, or about 10 times the distance between Earth and the moon.</p>"
+            ],
+            [
+                "id" => 30,
+                "name" => "Elijah Wood Launches Documentary Series on Environmental Activism",
+                "image" => "images/artikel_30.jpg",
+                "link" => "ChatGPT",
+                "status" => false,
+                "text" => "<p>In an exciting new venture, Elijah Wood, famed for his role as Frodo Baggins in \"The Lord of the Rings,\" has announced the launch of a documentary series titled \"Guardians of the Earth,\" set to premiere in late 2024. The series aims to highlight grassroots environmental activism worldwide, focusing on individuals and organizations making a significant impact in the fight against climate change.</p>
+                          <p>Wood has spent much of 2024 traveling to meet activists in various settings, from urban gardens in New York City to indigenous communities in the Amazon. He expressed his belief that storytelling can inspire change, stating, \"This series amplifies the voices of those making a real difference.\" Each episode will explore different initiatives, showcasing the challenges and innovative solutions these activists encounter.</p>
+                          <p>The announcement has resonated with both fans and environmental advocates, who view the series as a timely exploration of urgent climate issues. Experts believe that Wood’s involvement will draw vital attention to the cause. \"His star power can inspire action among viewers,\" said Dr. Sarah Collins, an environmental scientist.</p>
+                          <p>As \"Guardians of the Earth\" prepares for its debut, Wood remains focused on this impactful project, even as rumors swirl about his potential return to Middle-earth in a new \"Lord of the Rings\" spin-off series. For now, he is committed to inspiring hope and action through his documentary work.</p>"
             ],
 
 

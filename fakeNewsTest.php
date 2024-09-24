@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <script type="text/javascript" src="js/main.js" defer></script>
+    <script type="text/javascript" src="js/fn-test.js" defer></script>
     <title>Fake news test</title>
 </head>
 
@@ -39,7 +39,7 @@
             <div class="startTestButtons">
                 <button class="startTest" id="startTestDutch"><strong>Nederlandse test</strong></button>
                 <button class="startTest" id="startTestMixed"><strong>Nederlandse & Engelse test</strong></button>
-                <button class="startTest hidden" id="startTestEnglish"><strong>English test</strong></button>
+                <button class="startTest" id="startTestEnglish"><strong>English test</strong></button>
             </div>
         </div>
         <div id="testArticles" class="hidden">
