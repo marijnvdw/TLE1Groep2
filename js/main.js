@@ -21,22 +21,11 @@ async function fetchAiData(url) {
     try {
 
         const [score, result] = await GetFromAi(url);
-        // console.log(prompt.value)
         console.log("Score from AI:", score);
         console.log("Full result:", result);
+        insertDatabase(url, score, result.response.text())
 
-        // // Send the array to the PHP server
-        // fetch('./php/insert.php', {
-        //     method: 'POST',
-        //     headers: {
-        //         'Content-Type': 'application/json'  // Ensure JSON content type
-        //     },
-        //     body: JSON.stringify({ arrayData: myArray })  // Convert the array to a JSON string
-        // })
-        //     .then(response => response.json())  // Expecting a JSON response from the server
-        //     .then(data => console.log('Success:', data))
-        //     .catch((error) => console.error('Error:', error));
-        window.location.href = `http://localhost/TLE1/TLE1Groep2/php/insert.php?score=${score}&response=${result.response.text()}`
+
     } catch (error) {
         console.error("Error fetching data from AI:", error);
     }
@@ -126,4 +115,16 @@ function startProgress(score) {
 
     // Mark that progress has been executed to avoid rerunning
     progressExecuted = true;
+}
+
+function insertDatabase(link, inputScore, inputResponse) {
+    $.post("./php/insert.php",
+        {
+            url: link,
+            score: inputScore,
+            response: inputResponse,
+        },
+        function (data, status) {
+
+        });
 }
