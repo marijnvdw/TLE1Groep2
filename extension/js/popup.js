@@ -1,16 +1,19 @@
-const browser = window.browser || window.chrome;
+const browserAPI = window.browser || window.chrome;
 
 document.addEventListener("DOMContentLoaded", function () {
 
     function urlHandler(params) {
-        browser.tabs.query({ active: true, currentWindow: true }, tabs => {
+        browserAPI.tabs.query({ active: true, currentWindow: true }, tabs => {
 
             let url = tabs[0].url;
             console.log(url);
 
-            browser.storage.local.set({ currentUrl: url })
+            browserAPI.storage.local.set({ currentUrl: url })
                 .then(() => {
                     console.log("URL stored:", url);
+                    browserAPI.runtime.sendMessage({ action: "sendUrl", url: url });
+                    urlLink = document.getElementById("urlLink")
+                    urlLink.innerHTML = url
                 })
                 .catch((error) => {
                     console.error("Error storing URL:", error);
