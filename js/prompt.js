@@ -9,12 +9,12 @@ async function GetFromAi(url) {
     try {
         console.log(url)
         const result = await model.generateContent
-        ("Hoe betrouwbaar is deze website: "+ url +"" +
-            ". Geef me een waarde van 0 / 100, als format: 'Score: __ / 100'," +
-            " zet dit aan het begin van je bericht");
-        console.log(result)
-        console.log(result)
-        console.log(result.response.text());
+            ("Hoe betrouwbaar is deze website: " + url + "" +
+                ". Geef me een waarde van 0 / 100, als format: 'Score: __ / 100'," +
+                " zet dit aan het begin van je bericht");
+        // console.log(result)
+        // console.log(result)
+        // console.log(result.response.text());
         const str = result.response.text();
         const match = str.match(/\d+/); // Matches the first sequence of digits
 

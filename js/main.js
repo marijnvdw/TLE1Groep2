@@ -14,16 +14,15 @@ const button = document.getElementById('myButton');
 const prompt = document.getElementById('prompt');
 let resultarea = document.getElementById('resultarea');
 
-
-
 async function fetchAiData(url) {
 
     try {
 
         const [score, result] = await GetFromAi(url);
-        console.log("Score from AI:", score);
-        console.log("Full result:", result);
+        // console.log("Score from AI:", score);
+        // console.log("Full result:", result);
         insertDatabase(url, score, result.response.text())
+        resultarea.value = result.response.text();
 
 
     } catch (error) {
@@ -33,8 +32,29 @@ async function fetchAiData(url) {
 
 // Use the function
 button.addEventListener('click', async function () {
-    fetchAiData(prompt.value);
+
+    try {
+        const responseInput = await readDatabase(prompt.value);
+
+        const readLink = responseInput.link;
+        const readScore = responseInput.score;
+        const readResponse = responseInput.response;
+
+        console.log('Retrieved data: ', readLink, readScore, readResponse);
+
+        if (readResponse) {
+            resultarea.value = readResponse;
+        } else {
+            fetchAiData(prompt.value);
+        }
+    } catch (error) {
+        console.error('Error reading database:', error);
+        if (error.jqXHR) {
+            console.error('AJAX Error:', error.jqXHR.status, error.textStatus);
+        }
+    }
 });
+
 // let AiPrompt =
 //
 // button.addEventListener('click', async function () {
@@ -127,4 +147,13 @@ function insertDatabase(link, inputScore, inputResponse) {
         function (data, status) {
 
         });
+}
+
+function readDatabase(urlInput) {
+    return $.post(
+        "./php/read.php",
+        { url: urlInput },
+        null,
+        'json'
+    );
 }
