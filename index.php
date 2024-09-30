@@ -1,3 +1,7 @@
+<?php 
+require_once('php/getApiKey.php');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
