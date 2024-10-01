@@ -141,6 +141,7 @@ footer {
     text-align: center;
     flex-direction: row-reverse;
     margin-bottom: 100px;
+    align-items: center;
 }
 
 .container p{
@@ -176,9 +177,13 @@ footer {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-#Score {
-    padding-right: 50px;
+.Score {
+    display: flex;
+    flex-direction: column;
+}
 
+#response{
+    margin-left: 50px;
 }
 
 .hidden {
