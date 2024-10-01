@@ -51,7 +51,7 @@ require_once('php/getApiKey.php');
                 </div>
                 <div id="response"></div>
             </div>
-            <textarea id="resultarea"></textarea>
+            <p class="hidden" id="resultarea"></p>
         </div>
     </section>
 

@@ -22,7 +22,7 @@ async function fetchAiData(url) {
         // console.log("Score from AI:", score);
         // console.log("Full result:", result);
         insertDatabase(url, score, result.response.text())
-        resultarea.value = result.response.text();
+        resultarea.innerText = result.response.text();
 
 
     } catch (error) {
@@ -43,7 +43,8 @@ button.addEventListener('click', async function () {
         console.log('Retrieved data: ', readLink, readScore, readResponse);
 
         if (readResponse) {
-            resultarea.value = readResponse;
+            resultarea.innerText = readResponse;
+            resultarea.classList.remove('hidden')
         } else {
             fetchAiData(prompt.value);
         }
