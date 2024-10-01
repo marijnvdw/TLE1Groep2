@@ -28,7 +28,11 @@ require_once('php/getApiKey.php');
     <script defer type="module" src="./js/main.js"></script>
 
 <body>
-<?php require_once('nav.html'); ?>
+<header>
+        <i class="fa-solid fa-bars nav-button" id="toggleMenu"></i>
+        <h1>Validator</h1>
+    </header>
+    <?php require_once('nav.html'); ?>
     <section class="main">
         <form>
             <label for="prompt">Enter the URL of your news website here: </label>
