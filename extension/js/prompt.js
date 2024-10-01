@@ -1,5 +1,15 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
-import config from './config.js';
+import config from "./config";
+
+
+// function getApiKey(params) {
+//     $.get("./php/getApiKey.php")
+//     console.log($.get("./php/getApiKey.php"));
+    
+// }
+
+getApiKey()
+
 
 let key = config.API_KEY;
 const genAI = new GoogleGenerativeAI(key);

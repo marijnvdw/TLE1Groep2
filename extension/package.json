@@ -1,20 +1,14 @@
 {
-  "name": "tle1groep2",
+  "name": "extension",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "popup.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@google/generative-ai": "^0.19.0",
-    "dotenv": "^16.4.5",
-    "openai": "^4.61.0"
-  },
-  
-  "type": "module"
-
+    "@google/generative-ai": "^0.20.0"
+  }
 }
