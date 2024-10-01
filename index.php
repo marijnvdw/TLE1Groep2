@@ -23,8 +23,6 @@ require_once('php/getApiKey.php');
     <script type="module" src="./js/main.js"></script>
 </head>
 
-
-
     <script defer type="module" src="./js/main.js"></script>
 
 <body>
@@ -37,7 +35,7 @@ require_once('php/getApiKey.php');
         <form>
             <label for="prompt">Enter the URL of your news website here: </label>
             <div id="forms">
-            <input type="text" id="prompt" name="prompt" width="5000px" value="https://nos.nl/">
+            <input type="text" id="prompt" name="prompt" width="5000px">
             <button type="button" id="myButton">Check the Trustworthiness</button>
             </div>
         </form>
