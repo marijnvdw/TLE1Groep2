@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>Document</title>
 </head>
+
 <body>
 
     <!-- Toggle Menu Button -->
@@ -17,22 +19,24 @@
         <i id="closeMenu" class="fa fa-times"></i>
         <p>Menu Content</p>
         <ul id="nav-content">
-            <li class="nav-item"> Validator </li>
-            <li class="nav-item"> Zelftest </li>
+            <li class="nav-item"><a href="index.php" class="nav-item">Validator</a></li>
+
+            <li class="nav-item"><a href="fakeNewsTest.php" class="nav-item">Zelftest</a></li>
         </ul>
     </div>
 
     <script>
-        document.getElementById('toggleMenu').addEventListener('click', function() {
+        document.getElementById('toggleMenu').addEventListener('click', function () {
             var sideMenu = document.getElementById('sideMenu');
             sideMenu.classList.add('show');
         });
 
-        document.getElementById('closeMenu').addEventListener('click', function() {
+        document.getElementById('closeMenu').addEventListener('click', function () {
             var sideMenu = document.getElementById('sideMenu');
             sideMenu.classList.remove('show');
         });
     </script>
 
 </body>
+
 </html>
