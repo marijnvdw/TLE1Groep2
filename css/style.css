@@ -37,6 +37,23 @@ header {
     cursor: pointer;
 }
 
+#nav-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-item{
+    color: white;
+    list-style-type: none;
+    width: 100%;
+    font-size: 1.2rem;
+    text-align: left;
+    padding: 10px;
+} .nav-item:hover{
+    cursor: pointer;
+    background-color: #242424;
+}
+
 header h1 {
     color: white;
     margin: 0;
@@ -219,6 +236,10 @@ button {
     z-index: 1000;
 }
 
+#sideMenu p{
+   font-size: 1.5rem;
+}
+
 #sideMenu.show {
     left: 0;
 }
@@ -230,7 +251,7 @@ button {
     font-size: 28px;
     cursor: pointer;
     position: absolute;
-    top: 10px;
+    top: 20px;
     right: 20px;
 }
 
