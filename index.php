@@ -1,4 +1,4 @@
-<?php 
+<?php
 require_once('php/getApiKey.php');
 ?>
 
@@ -23,20 +23,27 @@ require_once('php/getApiKey.php');
     <script type="module" src="./js/main.js"></script>
 </head>
 
-    <script defer type="module" src="./js/main.js"></script>
+<script defer type="module" src="./js/main.js"></script>
 
 <body>
-<header>
+    <header>
         <i class="fa-solid fa-bars nav-button" id="toggleMenu"></i>
         <h1>Validator</h1>
     </header>
     <?php require_once('nav.html'); ?>
     <section class="main">
+        <?php
+        if (isset($_GET['url'])) {
+            $url = $_GET['url'];
+        } else {
+            $url = 'https://nos.nl/';
+        }
+        ?>
         <form>
             <label for="prompt">Enter the URL of your news website here: </label>
             <div id="forms">
-            <input type="text" id="prompt" name="prompt" width="5000px">
-            <button type="button" id="myButton">Check the Trustworthiness</button>
+                <input type="text" id="prompt" name="prompt" width="5000px" value="<?= $url ?>">
+                <button type="button" id="myButton">Check the Trustworthiness</button>
             </div>
         </form>
         <div class="container">
@@ -58,7 +65,7 @@ require_once('php/getApiKey.php');
     <!-- Site footer -->
     <footer>
         <div class="footer-content">
-            <p>© 2024  | All Rights Reserved to Jaimy, Quinten, Hidde, David, Sem en Marijn</p>
+            <p>© 2024 | All Rights Reserved to Jaimy, Quinten, Hidde, David, Sem en Marijn</p>
 
         </div>
     </footer>
