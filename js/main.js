@@ -19,8 +19,6 @@ async function fetchAiData(url) {
     try {
 
         const [score, result] = await GetFromAi(url);
-        // console.log("Score from AI:", score);
-        // console.log("Full result:", result);
         insertDatabase(url, score, result.response.text())
         resultarea.value = result.response.text();
 
@@ -44,8 +42,10 @@ button.addEventListener('click', async function () {
 
         if (readResponse) {
             resultarea.value = readResponse;
+            startProgress(readScore)
         } else {
             fetchAiData(prompt.value);
+            startProgress(score)
         }
     } catch (error) {
         console.error('Error reading database:', error);
