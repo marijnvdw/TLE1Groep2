@@ -34,7 +34,7 @@
         if (isset($_GET['url'])) {
             $url = $_GET['url'];
         } else {
-            $url = 'https://nos.nl/';
+            $url = '';
         }
         ?>
         <form>

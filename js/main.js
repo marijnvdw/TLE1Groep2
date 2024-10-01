@@ -13,7 +13,8 @@ let progressExecuted = false;
 const button = document.getElementById('myButton');
 const prompt = document.getElementById('prompt');
 let resultarea = document.getElementById('resultarea');
-let score;
+
+instantValidate()
 
 async function fetchAiData(url) {
 
@@ -58,6 +59,34 @@ button.addEventListener('click', async function () {
         }
     }
 });
+
+async function instantValidate() {
+    if (prompt.value) {
+        try {
+            const responseInput = await readDatabase(prompt.value);
+
+            const readLink = responseInput.link;
+            const readScore = responseInput.score;
+            const readResponse = responseInput.response;
+
+            console.log('Retrieved data: ', readLink, readScore, readResponse);
+
+            if (readResponse) {
+                resultarea.innerText = readResponse;
+                startProgress(readScore)
+                resultarea.classList.remove('hidden')
+            } else {
+                fetchAiData(prompt.value);
+            }
+
+        } catch (error) {
+            console.error('Error reading database:', error);
+            if (error.jqXHR) {
+                console.error('AJAX Error:', error.jqXHR.status, error.textStatus);
+            }
+        }
+    }
+}
 
 // let AiPrompt =
 //
