@@ -13,6 +13,7 @@ let progressExecuted = false;
 const button = document.getElementById('myButton');
 const prompt = document.getElementById('prompt');
 let resultarea = document.getElementById('resultarea');
+let score;
 
 async function fetchAiData(url) {
 
@@ -21,6 +22,8 @@ async function fetchAiData(url) {
         const [score, result] = await GetFromAi(url);
         insertDatabase(url, score, result.response.text())
         resultarea.innerText = result.response.text();
+        startProgress(score)
+        resultarea.classList.remove('hidden')
 
 
     } catch (error) {
@@ -46,8 +49,8 @@ button.addEventListener('click', async function () {
             resultarea.classList.remove('hidden')
         } else {
             fetchAiData(prompt.value);
-            startProgress(score)
         }
+
     } catch (error) {
         console.error('Error reading database:', error);
         if (error.jqXHR) {
