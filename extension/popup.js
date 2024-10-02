@@ -20,7 +20,15 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
-
+    // function addDataToDataBase(link, inputScore, inputResponse) {
+    //     $.post("./php/insert.php",
+    //         {
+    //             url: link,
+    //             score: inputScore,
+    //             response: inputResponse,
+    //         },
+    //         function (data, status) {
+    
     let articlePercentage = 40
     let sourcePercentage = 60
 
