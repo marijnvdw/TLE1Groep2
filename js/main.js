@@ -149,6 +149,7 @@ function startProgress(score) {
         resultText = "Ongeldige waarde voor trueRating."; // Fallback for unexpected values
     }
 
+
     // Update the text content of the result div
     resultDiv.innerText = resultText;
 
@@ -161,6 +162,7 @@ function startProgress(score) {
 
     // Calculate the offset based on the score (trueRating)
     const offset = circumference - (trueRating / 100) * circumference;
+
 
     // Set the color and progress based on the trueRating
     fillElement.style.stroke = strokeColor; // Update stroke color

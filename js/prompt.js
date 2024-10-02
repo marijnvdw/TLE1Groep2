@@ -11,7 +11,7 @@ async function GetFromAi(url) {
         const result = await model.generateContent
             ("Hoe betrouwbaar is deze website: " + url + "" +
                 ". Geef me een waarde van 0 / 100, als format: 'Score: __ / 100'," +
-                " zet dit aan het begin van je bericht");
+                " zet dit aan het begin van je bericht, ben streng op de score");
         // console.log(result)
         // console.log(result)
         // console.log(result.response.text());
