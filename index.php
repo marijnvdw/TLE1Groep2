@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -40,7 +38,7 @@
         <form>
             <label for="prompt">Enter the URL of your news website here: </label>
             <div id="forms">
-                <input type="text" id="prompt" name="prompt" width="5000px" value="<?= $url ?>">
+                <input type="text" id="prompt" name="prompt" width="5000px" value="<?= $url ?>" placeholder="https://nos.nl">
                 <button type="button" id="myButton">Check the Trustworthiness</button>
             </div>
         </form>

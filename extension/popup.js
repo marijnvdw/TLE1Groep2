@@ -21,9 +21,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
 
-
-
-
     let articlePercentage = 40
     let sourcePercentage = 60
 
